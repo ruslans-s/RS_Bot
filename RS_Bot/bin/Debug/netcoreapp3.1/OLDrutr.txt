@@ -1,4 +1,64 @@
 <entry>
+	<id>tag:rto.feed,2021-07-20:/t/6069202</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6069202" />
+	<updated>2021-07-20T04:17:56+00:00</updated>
+	<title>[Обновлено] Мальчики - ракетки / Racketsonyeondan / Racket Boys [14 из 16] [2021, спорт / школа, HDTVRip] [RAW] [1080p] DVO (SOFTBOX) [24.44 GB]</title>
+	<author>
+		<name>qosta mc</name>
+	</author>
+	<category term="f-915" label="Корейские сериалы с озвучкой" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-20:/t/6083587</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6083587" />
+	<updated>2021-07-20T04:16:52+00:00</updated>
+	<title>(Pop Punk, Alt-Punk) [STREAM] Nothing Sacred - Foundation [EP] - 2016, FLAC (tracks), lossless [155.6 MB]</title>
+	<author>
+		<name>09-11-2001</name>
+	</author>
+	<category term="f-1742" label="Indie, Post-Rock &amp; Post-Punk (lossless)" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-20:/t/6083585</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6083585" />
+	<updated>2021-07-20T04:08:58+00:00</updated>
+	<title>Стыд / Shame / Skammen (Ингмар Бергман / Ingmar Bergman) [1968, Швеция, драма, BDRip 720p] [US] [Criterion Collection] DVO (НТВ+) + Sub Rus, Eng + Original Swe [7.64 GB]</title>
+	<author>
+		<name>msltel</name>
+	</author>
+	<category term="f-2198" label="HD Video" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-20:/t/6083584</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6083584" />
+	<updated>2021-07-20T03:52:10+00:00</updated>
+	<title>Человек-лампа / The Lamp Man [ONA] [1 из 1] [Без хардсаба] [ZXX] [2017, приключения, WEBRip] [1080p] [37.6 MB]</title>
+	<author>
+		<name>sergeandr</name>
+	</author>
+	<category term="f-1105" label="Аниме (HD Video)" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-20:/t/6083582</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6083582" />
+	<updated>2021-07-20T03:31:25+00:00</updated>
+	<title>[Обновлено] (Pop, Soft Rock) Bulb - Magical Thinking - 2020, MP3, 320 kbps [98.3 MB]</title>
+	<author>
+		<name>09-11-2001</name>
+	</author>
+	<category term="f-428" label="Зарубежная поп-музыка (lossy)" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-20:/t/6083577</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6083577" />
+	<updated>2021-07-20T03:30:34+00:00</updated>
+	<title>(Rock) Nothing Sacred - In This World - 2013, MP3, 320 kbps [101.8 MB]</title>
+	<author>
+		<name>09-11-2001</name>
+	</author>
+	<category term="f-2330" label="AOR (Melodic Hard Rock, Arena rock) (lossy)" />
+</entry>
+<entry>
 	<id>tag:rto.feed,2021-07-20:/t/6083360</id>
 	<link href="https://rutracker.org/forum/viewtopic.php?t=6083360" />
 	<updated>2021-07-20T03:04:58+00:00</updated>
@@ -937,65 +997,5 @@
 		<name>oleg-1937</name>
 	</author>
 	<category term="f-1795" label="Зарубежный рок (HD Video)" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-19:/t/6083418</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083418" />
-	<updated>2021-07-19T19:09:09+00:00</updated>
-	<title>(Rock) Nothing Sacred - Hand from Hell - 2013, MP3, 320 kbps [93.5 MB]</title>
-	<author>
-		<name>09-11-2001</name>
-	</author>
-	<category term="f-2330" label="AOR (Melodic Hard Rock, Arena rock) (lossy)" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-19:/t/6083415</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083415" />
-	<updated>2021-07-19T19:08:58+00:00</updated>
-	<title>(Rock) [STREAM] Nothing Sacred - Hand from Hell - 2013, FLAC (tracks), lossless [241.9 MB]</title>
-	<author>
-		<name>09-11-2001</name>
-	</author>
-	<category term="f-2329" label="AOR (Melodic Hard Rock, Arena rock) (lossless)" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-19:/t/5182155</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=5182155" />
-	<updated>2021-07-19T19:00:10+00:00</updated>
-	<title>[Обновлено] (Indie Pop/ Piano) The Zolas - Коллекция: 10 Релизов - 2009-2021, MP3, 320 kbps [508.7 MB]</title>
-	<author>
-		<name>ARSENAL_LONDON</name>
-	</author>
-	<category term="f-1743" label="Indie, Post-Rock &amp; Post-Punk (lossy)" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-19:/t/6083525</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083525" />
-	<updated>2021-07-19T18:55:14+00:00</updated>
-	<title>(Balearic, Lounge, Chill Out, Downtempo) VA - Balearic Corazon (Electronic Anthems) - 2021, MP3, 320 kbps [297.8 MB]</title>
-	<author>
-		<name>Okamika</name>
-	</author>
-	<category term="f-1862" label="Chillout, Lounge, Downtempo (lossy)" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-19:/t/6083518</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083518" />
-	<updated>2021-07-19T18:54:45+00:00</updated>
-	<title>[Nintendo Switch] Spirits of Xanadu [NSZ][RUS/Multi5] [193.2 MB]</title>
-	<author>
-		<name>omg_gods</name>
-	</author>
-	<category term="f-1605" label="Switch" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-19:/t/6081220</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6081220" />
-	<updated>2021-07-19T18:54:39+00:00</updated>
-	<title>Тихое место 2 / A Quiet Place Part II (Джон Красински / John Krasinski) [2021, США, Ужасы, фантастика, драма, BDRip 720p] Dub (iTunes) + Original (Eng) + Sub (Rus, Eng, Ukr) [4.96 GB]</title>
-	<author>
-		<name>merkury1</name>
-	</author>
-	<category term="f-2198" label="HD Video" />
 </entry>
 </feed>

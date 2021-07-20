@@ -7,6 +7,7 @@ using System.IO;
 using System.Threading;
 using Telegram.Bot;
 using Telegram.Bot.Args;
+using Telegram.Bot.Types.InputFiles;
 
 namespace RS_Bot
 {
@@ -16,6 +17,7 @@ namespace RS_Bot
         private static string token;
         static TelegramBotClient client;
         private static List<Bot_command.Command> comands;
+      
 
         public static SqlConnection sql = null;
 
@@ -29,7 +31,10 @@ namespace RS_Bot
 
         static public void startUp()
         {
+            logFilesWork log = new logFilesWork();
+
             Console.WriteLine("RS_bot startup...");
+            log.addToLogFile("RS_bot startup...");
 
             StreamReader sr2 = new StreamReader(@"setting.ini");
 
@@ -41,11 +46,16 @@ namespace RS_Bot
 
             
             sql.Open();
+
+            //Команды 
             comands = new List<Bot_command.Command>();
             comands.Add(new AddC());
+            comands.Add(new adminsCommand(adminChatId));
+
             if (sql.State == ConnectionState.Open)
             {
                 Console.WriteLine("Бд подключена");
+                log.addToLogFile("Бд подключена");
             }
 
             client = new TelegramBotClient(token);
@@ -65,9 +75,14 @@ namespace RS_Bot
                 if (cheker.chekRutracker())
                 {
                     //207344692
-                    updateRss(cheker.GetArrayFromFile());
-
+                    updateRss(cheker.GetArrayFromFile(@"rutr.txt", @"OLDrutr.txt"));
                 }
+
+                /* rutor blocked proxy mb?
+                if (cheker.chekRutor())
+                {
+                    updateRss(cheker.GetArrayFromFile(@"rutor.txt", @"OLDrutor.txt"));
+                }*/
 
                 Thread.Sleep(60000);
 
@@ -75,7 +90,9 @@ namespace RS_Bot
                 if (count == 30)
                 {
                     sendMessageForAdmin("Я пишу тебе что я жив)");
+                    log.addToLogFile("Я пишу тебе что я жив");
                     count = 0;
+                   
                 }
                 else
                 {
@@ -119,10 +136,10 @@ namespace RS_Bot
 
         private static async void sendMessageForAdmin(string text)
         {
-            await client.SendTextMessageAsync(@"207344692", text);
+            await client.SendTextMessageAsync(adminChatId, "[Log]" + text);
         }
 
-            private static async void OnMessageHandler(object sender, MessageEventArgs e)
+        private static async void OnMessageHandler(object sender, MessageEventArgs e)
         {
 
             var messange = e.Message;

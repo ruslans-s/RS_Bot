@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Net;
 using System.Security.Cryptography;
 using System.Text;
-using System.Net;
-using System.IO;
 using System.Text.RegularExpressions;
 
 namespace RS_Bot.RssAnalize
@@ -28,6 +26,39 @@ namespace RS_Bot.RssAnalize
         string name = @"rutr.txt";
         string nameOld = @"OLDrutr.txt";
 
+        string nameR = @"rutor.txt";
+        string nameOldR = @"OLDrutor.txt";
+
+        public bool chekRutor()
+        {
+            //Создаем веб клинет
+            WebClient wc = new WebClient();
+            //Ссылка на поток
+            string url = "http://alt.rutor.info/rss.php";
+            //Пути файлов
+
+            //Грузим
+            wc.DownloadFile(url, nameR);
+
+            //Записываем обратно удаляе первые 6 строк
+            string[] s = File.ReadAllLines(nameR);
+            File.WriteAllLines(nameR, s.Skip(6));
+
+            //Сравнение
+            string file1 = GetMd5(File.ReadAllBytes(nameR));
+            string file2 = GetMd5(File.ReadAllBytes(nameOldR));
+            if (file1 == file2)
+            {
+                Console.WriteLine(DateTime.Now + " Поток не изменился");
+                return false;
+            }
+            else
+            {
+                Console.WriteLine(DateTime.Now + " Поток изменился");
+                return true;
+            }
+        }
+
         public bool chekRutracker()
         {
             //Создаем веб клинет
@@ -35,7 +66,7 @@ namespace RS_Bot.RssAnalize
             //Ссылка на поток
             string url = "http://feed.rutracker.cc/atom/f/0.atom";
             //Пути файлов
-           
+
             //Грузим
             wc.DownloadFile(url, name);
 
@@ -59,10 +90,11 @@ namespace RS_Bot.RssAnalize
         }
 
 
-        public List<string> GetArrayFromFile()
+        public List<string> GetArrayFromFile(string names, string  oldnames)
         {
+
             List<string> arrayN = new List<string>();
-            StreamReader sr = new StreamReader(name);
+            StreamReader sr = new StreamReader(names);
             string line;
             while (!sr.EndOfStream)
             {
@@ -75,7 +107,7 @@ namespace RS_Bot.RssAnalize
             sr.Close();
 
             List<string> arrayO = new List<string>();
-            StreamReader sr2 = new StreamReader(nameOld);
+            StreamReader sr2 = new StreamReader(oldnames);
             while (!sr2.EndOfStream)
             {
                 line = sr2.ReadLine();
@@ -95,7 +127,7 @@ namespace RS_Bot.RssAnalize
                     {
                         break;
                     }
-                    if (j==(arrayO.Count-1))
+                    if (j == (arrayO.Count - 1))
                     {
                         //
                         line = Regex.Replace(arrayN[i], @"\[.*?\]", "");
@@ -107,8 +139,8 @@ namespace RS_Bot.RssAnalize
                 }
             }
 
-            System.IO.File.Delete(nameOld);
-            File.Move(name, nameOld);
+            System.IO.File.Delete(oldnames);
+            File.Move(names, oldnames);
 
             return arrayForOut;
         }
