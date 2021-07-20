@@ -1,4 +1,74 @@
 <entry>
+	<id>tag:rto.feed,2021-07-20:/t/6083593</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6083593" />
+	<updated>2021-07-20T04:37:48+00:00</updated>
+	<title>[TR24][OF] Jon Hendricks - Before Us (Remastered) - 2020 (Vocal Jazz) [922.9 MB]</title>
+	<author>
+		<name>latimer</name>
+	</author>
+	<category term="f-2302" label="Джаз и Блюз (Hi-Res stereo)" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-20:/t/6083591</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6083591" />
+	<updated>2021-07-20T04:35:26+00:00</updated>
+	<title>(Euro House, Eurodance) [CDM] B.O.D.Y. - Who&#039;s The Man - 1994, FLAC (image+.cue), lossless [158 MB]</title>
+	<author>
+		<name>dadas75</name>
+	</author>
+	<category term="f-2502" label="Eurodance, Euro-House, Technopop (lossless)" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-20:/t/6065406</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6065406" />
+	<updated>2021-07-20T04:32:32+00:00</updated>
+	<title>(Rap, Hip-Hop) Dino MC47, Dino MC 47 - Трекография - 2008 - н.в., MP3, 128-320 kbps [606.5 MB]</title>
+	<author>
+		<name>Andrez82</name>
+	</author>
+	<category term="f-441" label="Отечественный Рэп, Хип-Хоп (lossy)" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-20:/t/6083590</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6083590" />
+	<updated>2021-07-20T04:28:37+00:00</updated>
+	<title>(Balearic, Jazz, Chillout, Lounge, Downtempo) VA - Sax In Ibiza (Summer Cafe Beach Smooth Chillout Jazz Vibes) - 2021, MP3, 320 kbps [141.6 MB]</title>
+	<author>
+		<name>Okamika</name>
+	</author>
+	<category term="f-1862" label="Chillout, Lounge, Downtempo (lossy)" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-20:/t/6083589</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6083589" />
+	<updated>2021-07-20T04:28:14+00:00</updated>
+	<title>(Pop Punk, Alt-Punk) Nothing Sacred - Foundation [EP] - 2016, MP3, 320 kbps [48.8 MB]</title>
+	<author>
+		<name>09-11-2001</name>
+	</author>
+	<category term="f-1743" label="Indie, Post-Rock &amp; Post-Punk (lossy)" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-20:/t/6059073</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6059073" />
+	<updated>2021-07-20T04:26:14+00:00</updated>
+	<title>(Contry Rap / Rap-Rock) Brooks Buford - Straight Outta Rehab - 2003, MP3, 320 kbps [122.6 MB]</title>
+	<author>
+		<name>Negativ Ecreep</name>
+	</author>
+	<category term="f-446" label="Зарубежный Рэп, Хип-Хоп (lossy)" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-20:/t/6083588</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6083588" />
+	<updated>2021-07-20T04:23:28+00:00</updated>
+	<title>Spitfire Audio - Spitfire Studio Woodwinds (KONTAKT) [9.5 GB]</title>
+	<author>
+		<name>vorunA2016</name>
+	</author>
+	<category term="f-2421" label="Библиотеки и саундбанки для сэмплеров, пресеты для синтезаторов" />
+</entry>
+<entry>
 	<id>tag:rto.feed,2021-07-20:/t/6069202</id>
 	<link href="https://rutracker.org/forum/viewtopic.php?t=6069202" />
 	<updated>2021-07-20T04:17:56+00:00</updated>
@@ -927,75 +997,5 @@
 		<name>Leverkuehn</name>
 	</author>
 	<category term="f-124" label="Арт-хаус и авторское кино" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-19:/t/6083440</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083440" />
-	<updated>2021-07-19T19:29:34+00:00</updated>
-	<title>Зомби-реальность / Reality Z / Сезон: 1 / Серии: 1-10 из 10 (Родриго Монте, Клаудио Торрес) [2020, Бразилия, ужасы, драма, WEBRip] MVO (TVShows) [3.66 GB]</title>
-	<author>
-		<name>vlad.akim1963</name>
-	</author>
-	<category term="f-534" label="Сериалы Бразилии" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-19:/t/6058736</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6058736" />
-	<updated>2021-07-19T19:27:44+00:00</updated>
-	<title>[Обновлено] Сталин И.В. - Сочинения [1946-1952/1997-2006, CHM, RUS] [54.5 MB]</title>
-	<author>
-		<name>legen848dary</name>
-	</author>
-	<category term="f-2436" label="Эпоха СССР" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-19:/t/6083530</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083530" />
-	<updated>2021-07-19T19:24:46+00:00</updated>
-	<title>[автореф. дисс.] Ткачук Р.Ф. - Творчість Іпатія Потія в контексті полемічної літератури кінця XVI - початку XVII ст. / Творчество Ипатия Потея в контексте полемической литературы конца XVI - начала XVII ст. [2008, DjVu, UKR] [244 KB]</title>
-	<author>
-		<name>Scaramucciа</name>
-	</author>
-	<category term="f-2453" label="История стран бывшего СССР" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-19:/t/6083527</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083527" />
-	<updated>2021-07-19T19:18:10+00:00</updated>
-	<title>[Nintendo Switch] Infestor [NSP][RUS/Multi6] [20.8 MB]</title>
-	<author>
-		<name>omg_gods</name>
-	</author>
-	<category term="f-1605" label="Switch" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-19:/t/6083528</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083528" />
-	<updated>2021-07-19T19:17:58+00:00</updated>
-	<title>Zenhiser - German Deep House (MiDi, WAV) [5.71 GB]</title>
-	<author>
-		<name>wugluskra</name>
-	</author>
-	<category term="f-1674" label="Библиотеки сэмплов" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-19:/t/6083488</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083488" />
-	<updated>2021-07-19T19:15:35+00:00</updated>
-	<title>Джентльмены / The Gentlemen (Гай Ричи / Guy Ritchie) [2019, США, Боевик, комедия, криминал, WEB-DL 1080p] [Локализованный видеоряд] Dub + DVO (Кубик в Кубе) + Original (Eng) + Sub (Rus) [4.55 GB]</title>
-	<author>
-		<name>SOFCJ</name>
-	</author>
-	<category term="f-2198" label="HD Video" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-19:/t/6083526</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083526" />
-	<updated>2021-07-19T19:12:10+00:00</updated>
-	<title>Little Steven And The Disciples Of Soul - Summer Of Sorcery Live At The Beacon Theatre [2021, Blues Rock, Soul, Blu-ray, 1080p] [41.64 GB]</title>
-	<author>
-		<name>oleg-1937</name>
-	</author>
-	<category term="f-1795" label="Зарубежный рок (HD Video)" />
 </entry>
 </feed>
