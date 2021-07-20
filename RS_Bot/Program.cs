@@ -13,7 +13,7 @@ namespace RS_Bot
     class Program
     {
         //Удалить токен!!!!!!!
-        private static string token = "1689017519:AAEY2OC4_rogcWEJ1tXg6MD0ISH_48gGMcQ";
+        private static string token;
         static TelegramBotClient client;
         private static List<Bot_command.Command> comands;
 
@@ -34,11 +34,12 @@ namespace RS_Bot
             StreamReader sr2 = new StreamReader(@"setting.ini");
 
             adminChatId = sr2.ReadLine();
+            sql = new SqlConnection(sr2.ReadLine());
+            token = sr2.ReadLine();
 
             sr2.Close();
 
-            sql = new SqlConnection(@"Data Source=RsDataBase.mssql.somee.com;Initial Catalog=RsDataBase;Persist Security Info=True;User ID=RuslanS_SQLLogin_1;Password=jld1l61bip");
-
+            
             sql.Open();
             comands = new List<Bot_command.Command>();
             comands.Add(new AddC());
