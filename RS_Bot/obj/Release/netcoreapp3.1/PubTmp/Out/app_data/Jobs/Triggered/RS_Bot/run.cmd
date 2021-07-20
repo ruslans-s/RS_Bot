@@ -1,0 +1,1 @@
+dotnet RS_Bot.dll %*

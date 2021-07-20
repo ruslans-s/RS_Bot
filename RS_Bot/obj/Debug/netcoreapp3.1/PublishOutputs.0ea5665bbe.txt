@@ -1,0 +1,16 @@
+D:\repos\RS_Bot\RS_Bot\bin\Debug\netcoreapp3.1\publish\Settings.job
+D:\repos\RS_Bot\RS_Bot\bin\Debug\netcoreapp3.1\publish\RS_Bot.exe
+D:\repos\RS_Bot\RS_Bot\bin\Debug\netcoreapp3.1\publish\RS_Bot.dll
+D:\repos\RS_Bot\RS_Bot\bin\Debug\netcoreapp3.1\publish\RS_Bot.deps.json
+D:\repos\RS_Bot\RS_Bot\bin\Debug\netcoreapp3.1\publish\RS_Bot.runtimeconfig.json
+D:\repos\RS_Bot\RS_Bot\bin\Debug\netcoreapp3.1\publish\RS_Bot.pdb
+D:\repos\RS_Bot\RS_Bot\bin\Debug\netcoreapp3.1\publish\NDbUnit.Core.dll
+D:\repos\RS_Bot\RS_Bot\bin\Debug\netcoreapp3.1\publish\NDbUnit.SqlLite.dll
+D:\repos\RS_Bot\RS_Bot\bin\Debug\netcoreapp3.1\publish\Newtonsoft.Json.dll
+D:\repos\RS_Bot\RS_Bot\bin\Debug\netcoreapp3.1\publish\System.Data.SqlClient.dll
+D:\repos\RS_Bot\RS_Bot\bin\Debug\netcoreapp3.1\publish\Telegram.Bot.dll
+D:\repos\RS_Bot\RS_Bot\bin\Debug\netcoreapp3.1\publish\runtimes\win-arm64\native\sni.dll
+D:\repos\RS_Bot\RS_Bot\bin\Debug\netcoreapp3.1\publish\runtimes\win-x64\native\sni.dll
+D:\repos\RS_Bot\RS_Bot\bin\Debug\netcoreapp3.1\publish\runtimes\win-x86\native\sni.dll
+D:\repos\RS_Bot\RS_Bot\bin\Debug\netcoreapp3.1\publish\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\repos\RS_Bot\RS_Bot\bin\Debug\netcoreapp3.1\publish\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

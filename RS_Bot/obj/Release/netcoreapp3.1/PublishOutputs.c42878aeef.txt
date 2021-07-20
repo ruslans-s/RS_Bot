@@ -1,0 +1,16 @@
+C:\Users\sadik\Desktop\Новая папка (2)\Settings.job
+C:\Users\sadik\Desktop\Новая папка (2)\RS_Bot.exe
+C:\Users\sadik\Desktop\Новая папка (2)\RS_Bot.dll
+C:\Users\sadik\Desktop\Новая папка (2)\RS_Bot.deps.json
+C:\Users\sadik\Desktop\Новая папка (2)\RS_Bot.runtimeconfig.json
+C:\Users\sadik\Desktop\Новая папка (2)\RS_Bot.pdb
+C:\Users\sadik\Desktop\Новая папка (2)\NDbUnit.Core.dll
+C:\Users\sadik\Desktop\Новая папка (2)\NDbUnit.SqlLite.dll
+C:\Users\sadik\Desktop\Новая папка (2)\Newtonsoft.Json.dll
+C:\Users\sadik\Desktop\Новая папка (2)\System.Data.SqlClient.dll
+C:\Users\sadik\Desktop\Новая папка (2)\Telegram.Bot.dll
+C:\Users\sadik\Desktop\Новая папка (2)\runtimes\win-arm64\native\sni.dll
+C:\Users\sadik\Desktop\Новая папка (2)\runtimes\win-x64\native\sni.dll
+C:\Users\sadik\Desktop\Новая папка (2)\runtimes\win-x86\native\sni.dll
+C:\Users\sadik\Desktop\Новая папка (2)\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\sadik\Desktop\Новая папка (2)\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

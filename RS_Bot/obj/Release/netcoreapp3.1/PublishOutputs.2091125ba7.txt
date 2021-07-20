@@ -1,0 +1,16 @@
+D:\repos\RS_Bot\RS_Bot\obj\Release\netcoreapp3.1\PubTmp\Out\app_data\Jobs\Triggered\RS_Bot\Settings.job
+D:\repos\RS_Bot\RS_Bot\obj\Release\netcoreapp3.1\PubTmp\Out\app_data\Jobs\Triggered\RS_Bot\RS_Bot.exe
+D:\repos\RS_Bot\RS_Bot\obj\Release\netcoreapp3.1\PubTmp\Out\app_data\Jobs\Triggered\RS_Bot\RS_Bot.dll
+D:\repos\RS_Bot\RS_Bot\obj\Release\netcoreapp3.1\PubTmp\Out\app_data\Jobs\Triggered\RS_Bot\RS_Bot.deps.json
+D:\repos\RS_Bot\RS_Bot\obj\Release\netcoreapp3.1\PubTmp\Out\app_data\Jobs\Triggered\RS_Bot\RS_Bot.runtimeconfig.json
+D:\repos\RS_Bot\RS_Bot\obj\Release\netcoreapp3.1\PubTmp\Out\app_data\Jobs\Triggered\RS_Bot\RS_Bot.pdb
+D:\repos\RS_Bot\RS_Bot\obj\Release\netcoreapp3.1\PubTmp\Out\app_data\Jobs\Triggered\RS_Bot\NDbUnit.Core.dll
+D:\repos\RS_Bot\RS_Bot\obj\Release\netcoreapp3.1\PubTmp\Out\app_data\Jobs\Triggered\RS_Bot\NDbUnit.SqlLite.dll
+D:\repos\RS_Bot\RS_Bot\obj\Release\netcoreapp3.1\PubTmp\Out\app_data\Jobs\Triggered\RS_Bot\Newtonsoft.Json.dll
+D:\repos\RS_Bot\RS_Bot\obj\Release\netcoreapp3.1\PubTmp\Out\app_data\Jobs\Triggered\RS_Bot\System.Data.SqlClient.dll
+D:\repos\RS_Bot\RS_Bot\obj\Release\netcoreapp3.1\PubTmp\Out\app_data\Jobs\Triggered\RS_Bot\Telegram.Bot.dll
+D:\repos\RS_Bot\RS_Bot\obj\Release\netcoreapp3.1\PubTmp\Out\app_data\Jobs\Triggered\RS_Bot\runtimes\win-arm64\native\sni.dll
+D:\repos\RS_Bot\RS_Bot\obj\Release\netcoreapp3.1\PubTmp\Out\app_data\Jobs\Triggered\RS_Bot\runtimes\win-x64\native\sni.dll
+D:\repos\RS_Bot\RS_Bot\obj\Release\netcoreapp3.1\PubTmp\Out\app_data\Jobs\Triggered\RS_Bot\runtimes\win-x86\native\sni.dll
+D:\repos\RS_Bot\RS_Bot\obj\Release\netcoreapp3.1\PubTmp\Out\app_data\Jobs\Triggered\RS_Bot\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\repos\RS_Bot\RS_Bot\obj\Release\netcoreapp3.1\PubTmp\Out\app_data\Jobs\Triggered\RS_Bot\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

@@ -54,6 +54,27 @@
           }
         }
       },
+      "NDbUnit.Core/1.6.8": {
+        "type": "package",
+        "compile": {
+          "lib/Net35/NDbUnit.Core.dll": {}
+        },
+        "runtime": {
+          "lib/Net35/NDbUnit.Core.dll": {}
+        }
+      },
+      "NDbUnit.SqlLite/1.6.8": {
+        "type": "package",
+        "dependencies": {
+          "NDbUnit.Core": "1.6.8"
+        },
+        "compile": {
+          "lib/Net35/NDbUnit.SqlLite.dll": {}
+        },
+        "runtime": {
+          "lib/Net35/NDbUnit.SqlLite.dll": {}
+        }
+      },
       "NETStandard.Library/1.6.1": {
         "type": "package",
         "dependencies": {
@@ -1493,6 +1514,31 @@
         "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.xml",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "NDbUnit.Core/1.6.8": {
+      "sha512": "uMlzDWV1S4duukcops4ehpv4V/gdK4jV4DCYzdUjMyZVt+3tLf48Vvmutsan6tEhXaZlf5zkXuCP+Fmvad2YMA==",
+      "type": "package",
+      "path": "ndbunit.core/1.6.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/Net35/NDbUnit.Core.dll",
+        "ndbunit.core.1.6.8.nupkg.sha512",
+        "ndbunit.core.nuspec"
+      ]
+    },
+    "NDbUnit.SqlLite/1.6.8": {
+      "sha512": "/Grfv8skO/0j7fdxtgzwkDZBncZfmjeAWBJHLiZeDJnryoiX68d4T8UAX2XQYkhfXT/lJUuu1G9qyhW+4q7dgw==",
+      "type": "package",
+      "path": "ndbunit.sqllite/1.6.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/Net35/NDbUnit.SqlLite.dll",
+        "lib/Net35/NDbUnit.SqlLite.pdb",
+        "ndbunit.sqllite.1.6.8.nupkg.sha512",
+        "ndbunit.sqllite.nuspec"
       ]
     },
     "NETStandard.Library/1.6.1": {
@@ -5136,6 +5182,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "NDbUnit.SqlLite >= 1.6.8",
       "System.Data.SqlClient >= 4.8.2",
       "Telegram.Bot >= 16.0.2"
     ]
@@ -5179,6 +5226,10 @@
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
         "dependencies": {
+          "NDbUnit.SqlLite": {
+            "target": "Package",
+            "version": "[1.6.8, )"
+          },
           "System.Data.SqlClient": {
             "target": "Package",
             "version": "[4.8.2, )"
@@ -5206,5 +5257,27 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"NDbUnit.Core 1.6.8\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "NDbUnit.Core",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"NDbUnit.SqlLite 1.6.8\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "NDbUnit.SqlLite",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

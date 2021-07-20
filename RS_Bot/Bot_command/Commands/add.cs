@@ -15,28 +15,23 @@ namespace RS_Bot.Bot_command.Commands
 
         static private void AddNewUserId(string id, string trak)
         {
-            //insert into UserData (name, surname) values (N'R', N's')
             SqlCommand command = new SqlCommand(
                 $"insert into [UserData] (user_id, tracking) values (N'{id}', N'{trak}')",
                 sql);
-
             Console.WriteLine(command.ExecuteNonQuery().ToString());
         }
 
-        //ВЫвод Select id, name from UserData Where name = 'RS'
+     
         static private bool getData(string id,string trak)
         {
             SqlDataAdapter dataAdapter = new SqlDataAdapter(
-                $"Select user_id, tracking from UserData Where user_id = {id}",
+                $"Select user_id, tracking from UserData Where user_id = N'{id}' AND tracking = N'{trak}'",
                 sql
                 );
-
             DataSet dataSet = new DataSet();
-
-            dataAdapter.Fill(dataSet);
-
-            return (dataSet.Tables[0].Rows.Count == 0);
             
+            dataAdapter.Fill(dataSet);
+            return (dataSet.Tables[0].Rows.Count == 0);
         }
 
        
@@ -46,7 +41,7 @@ namespace RS_Bot.Bot_command.Commands
             string name = message.Text.Remove(0,4);
            // await client.SendTextMessageAsync(message.Chat.Id, $"Напиши название сериала:)");
             sql = sqlN;
-            if(getData(message.Chat.Id.ToString(), name))
+           if(getData(message.Chat.Id.ToString(), name))
             {
                 AddNewUserId(message.Chat.Id.ToString(), name);
                 await client.SendTextMessageAsync(message.Chat.Id, $"Добавлено");
