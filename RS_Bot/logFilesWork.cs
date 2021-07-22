@@ -16,8 +16,8 @@ namespace RS_Bot
             using (var writer = new StreamWriter(path, true))
             {
                 //Добавляем к старому содержимому файла
-                writer.WriteLine(DateTime.Now + logText);
-                Console.WriteLine(DateTime.Now + logText);
+                writer.WriteLine(DateTime.Now +" " + logText);
+                Console.WriteLine(DateTime.Now + " " + logText);
             }
         }
     }

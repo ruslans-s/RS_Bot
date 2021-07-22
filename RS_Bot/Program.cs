@@ -52,7 +52,9 @@ namespace RS_Bot
             comands = new List<Bot_command.Command>();
             comands.Add(new AddC());
             comands.Add(new adminsCommand(adminChatId));
-            comands.Add(new list());
+            comands.Add(new List());
+            comands.Add(new Del());
+
             if (sql.State == ConnectionState.Open)
             {
                 Console.WriteLine("Бд подключена");

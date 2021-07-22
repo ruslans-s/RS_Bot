@@ -8,9 +8,9 @@ using Telegram.Bot.Types;
 
 namespace RS_Bot.Bot_command.Commands
 {
-    class list : Command
+    class List : Command
     {
-        public override string[] Names { get; set; } = new string[] { "list", "List", "список", "Список" };
+        public override string[] Names { get; set; } = new string[] { "list", "List" };
 
         public override async void Execute(Message message, TelegramBotClient client, SqlConnection sql)
         {
