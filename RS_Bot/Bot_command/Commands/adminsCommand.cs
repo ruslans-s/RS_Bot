@@ -17,7 +17,7 @@ namespace RS_Bot.Bot_command.Commands
         {
             adminId = setAdminsId;
         }
-        public override string[] Names { get; set; } = new string[] { "getlog" };
+        public override string[] Names { get; set; } = new string[] { "getlog", "Getlog", "Лог" };
 
         public override async void Execute(Message message, TelegramBotClient client, SqlConnection sql)
         {
@@ -51,7 +51,7 @@ namespace RS_Bot.Bot_command.Commands
                         writer.WriteLine(DateTime.Now + @" До меня домогался: " + message.Chat.Id.ToString() + " " + message.Chat.Username.ToString());
                     }
                 }
-                catch (IOException ioex)
+                catch
                 {
                     await client.SendTextMessageAsync(message.Chat.Id, $"Файл занят");
                 }

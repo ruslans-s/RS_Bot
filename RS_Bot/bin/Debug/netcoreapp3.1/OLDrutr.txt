@@ -1,1001 +1,1001 @@
 <entry>
-	<id>tag:rto.feed,2021-07-20:/t/6083593</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083593" />
-	<updated>2021-07-20T04:37:48+00:00</updated>
-	<title>[TR24][OF] Jon Hendricks - Before Us (Remastered) - 2020 (Vocal Jazz) [922.9 MB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084392</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084392" />
+	<updated>2021-07-22T09:54:37+00:00</updated>
+	<title>Власти продолжают добиваться запрета популярного сайта о криптовалютах Bitcoin.Org</title>
 	<author>
-		<name>latimer</name>
+		<name>Temychk</name>
 	</author>
-	<category term="f-2302" label="Джаз и Блюз (Hi-Res stereo)" />
+	<category term="f-2448" label="Раздел Пиратской партии России" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-20:/t/6083591</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083591" />
-	<updated>2021-07-20T04:35:26+00:00</updated>
-	<title>(Euro House, Eurodance) [CDM] B.O.D.Y. - Who&#039;s The Man - 1994, FLAC (image+.cue), lossless [158 MB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6081665</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6081665" />
+	<updated>2021-07-22T09:54:32+00:00</updated>
+	<title>[Обновлено] Документалист. Охотник за призраками / Серии: 1-6 из 8 (Илья Куликов, Никита Грамматиков, Аня Мирохина) [2019, драма, WEBRip-AVC] [3.22 GB]</title>
 	<author>
-		<name>dadas75</name>
+		<name>Aleksan555</name>
 	</author>
-	<category term="f-2502" label="Eurodance, Euro-House, Technopop (lossless)" />
+	<category term="f-9" label="Русские сериалы" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-20:/t/6065406</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6065406" />
-	<updated>2021-07-20T04:32:32+00:00</updated>
-	<title>(Rap, Hip-Hop) Dino MC47, Dino MC 47 - Трекография - 2008 - н.в., MP3, 128-320 kbps [606.5 MB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6071511</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6071511" />
+	<updated>2021-07-22T09:53:22+00:00</updated>
+	<title>[Обновлено] (Electronic, Lounge, Chill Out, Downtempo) VA - Golden Sun Lounge, Vol. 1 -3 - 2021, MP3, 320 kbps [1.01 GB]</title>
 	<author>
-		<name>Andrez82</name>
-	</author>
-	<category term="f-441" label="Отечественный Рэп, Хип-Хоп (lossy)" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-20:/t/6083590</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083590" />
-	<updated>2021-07-20T04:28:37+00:00</updated>
-	<title>(Balearic, Jazz, Chillout, Lounge, Downtempo) VA - Sax In Ibiza (Summer Cafe Beach Smooth Chillout Jazz Vibes) - 2021, MP3, 320 kbps [141.6 MB]</title>
-	<author>
-		<name>Okamika</name>
+		<name>40years</name>
 	</author>
 	<category term="f-1862" label="Chillout, Lounge, Downtempo (lossy)" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-20:/t/6083589</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083589" />
-	<updated>2021-07-20T04:28:14+00:00</updated>
-	<title>(Pop Punk, Alt-Punk) Nothing Sacred - Foundation [EP] - 2016, MP3, 320 kbps [48.8 MB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6078713</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6078713" />
+	<updated>2021-07-22T09:53:09+00:00</updated>
+	<title>[Обновлено] Fuse - Tensei Shitara Slime datta ken / О моём перерождении в слизь [2013, EPUB,DOCX, ODT RUS][Web Original и Light Nove 1-18 Томl] [431.9 MB]</title>
+	<author>
+		<name>Yollori</name>
+	</author>
+	<category term="f-2458" label="Ранобэ" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-22:/t/6084388</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084388" />
+	<updated>2021-07-22T09:45:49+00:00</updated>
+	<title>Продолжается взлом аккаунтов на «Госуслугах» для взятия микрокредитов</title>
+	<author>
+		<name>Temychk</name>
+	</author>
+	<category term="f-2448" label="Раздел Пиратской партии России" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-22:/t/6084387</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084387" />
+	<updated>2021-07-22T09:45:10+00:00</updated>
+	<title>Motorhead - The World Is Ours - Vol.1 [2011, Rock &amp; Roll, BDRip-AVC] [2.11 GB]</title>
+	<author>
+		<name>oleg-1937</name>
+	</author>
+	<category term="f-1782" label="Rock (Видео)" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-22:/t/6084386</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084386" />
+	<updated>2021-07-22T09:43:21+00:00</updated>
+	<title>(R&amp;B | Soul &amp; Funk) VA - Soulful 60s - 2021, MP3, 320 kbps [145 MB]</title>
+	<author>
+		<name>ЯОR</name>
+	</author>
+	<category term="f-2287" label="Зарубежный джаз (lossy)" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-22:/t/6084385</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084385" />
+	<updated>2021-07-22T09:42:05+00:00</updated>
+	<title>Автоматический сбор пользовательской информации с «ВКонтакте» теперь под запретом</title>
+	<author>
+		<name>Temychk</name>
+	</author>
+	<category term="f-2448" label="Раздел Пиратской партии России" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-22:/t/6084384</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084384" />
+	<updated>2021-07-22T09:39:34+00:00</updated>
+	<title>(Country) Tyller Gummersall - Lucky Guy - 2021, MP3, 320 kbps [84.6 MB]</title>
+	<author>
+		<name>ЯОR</name>
+	</author>
+	<category term="f-1136" label="Country, Bluegrass (lossy)" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-22:/t/6084383</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084383" />
+	<updated>2021-07-22T09:38:23+00:00</updated>
+	<title>Naroth Audio - Alloy Vol I: Discs (KONTAKT) [1.85 GB]</title>
+	<author>
+		<name>Ice1983</name>
+	</author>
+	<category term="f-2421" label="Библиотеки и саундбанки для сэмплеров, пресеты для синтезаторов" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-22:/t/6084162</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084162" />
+	<updated>2021-07-22T09:38:19+00:00</updated>
+	<title>[Обновлено] (Metal) VA - Monsters of Metal, Vol. 8 - 2015, MP3, 320 kbps [217.9 MB]</title>
 	<author>
 		<name>09-11-2001</name>
 	</author>
-	<category term="f-1743" label="Indie, Post-Rock &amp; Post-Punk (lossy)" />
+	<category term="f-2231" label="Сборники (lossy)" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-20:/t/6059073</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6059073" />
-	<updated>2021-07-20T04:26:14+00:00</updated>
-	<title>(Contry Rap / Rap-Rock) Brooks Buford - Straight Outta Rehab - 2003, MP3, 320 kbps [122.6 MB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084382</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084382" />
+	<updated>2021-07-22T09:37:38+00:00</updated>
+	<title>(Latin Pop) Luis Figueroa - Canciones Del Alma - 2021, MP3, 320 kbps [87.2 MB]</title>
 	<author>
-		<name>Negativ Ecreep</name>
+		<name>ЯОR</name>
 	</author>
-	<category term="f-446" label="Зарубежный Рэп, Хип-Хоп (lossy)" />
+	<category term="f-2232" label="Латиноамериканская поп-музыка (lossy)" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-20:/t/6083588</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083588" />
-	<updated>2021-07-20T04:23:28+00:00</updated>
-	<title>Spitfire Audio - Spitfire Studio Woodwinds (KONTAKT) [9.5 GB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084381</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084381" />
+	<updated>2021-07-22T09:35:12+00:00</updated>
+	<title>Роскомнадзор составит чёрные списки «неприземлённых» IT-компаний</title>
+	<author>
+		<name>Temychk</name>
+	</author>
+	<category term="f-2448" label="Раздел Пиратской партии России" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-22:/t/6084380</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084380" />
+	<updated>2021-07-22T09:33:34+00:00</updated>
+	<title>(Psychedelic | Dream Pop) The Dallas Four - The Complete Recordings 1965-1969 - 2021, MP3, 320 kbps [175.8 MB]</title>
+	<author>
+		<name>ЯОR</name>
+	</author>
+	<category term="f-1703" label="Classic Rock &amp; Hard Rock (lossy)" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-22:/t/6084379</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084379" />
+	<updated>2021-07-22T09:31:53+00:00</updated>
+	<title>(Pop) Mbosso - Definition Of Love - 2021, MP3, 320 kbps [110.9 MB]</title>
+	<author>
+		<name>ЯОR</name>
+	</author>
+	<category term="f-428" label="Зарубежная поп-музыка (lossy)" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-22:/t/6084378</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084378" />
+	<updated>2021-07-22T09:31:29+00:00</updated>
+	<title>(Pop Rock) [CD] Elton John - Don&#039;t Shoot Me I&#039;m Only The Piano Player - 1995, FLAC (image+.cue), lossless [377.2 MB]</title>
+	<author>
+		<name>alexcat@pisem.net</name>
+	</author>
+	<category term="f-1708" label="Pop-Rock &amp; Soft Rock (lossless)" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-22:/t/6084366</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084366" />
+	<updated>2021-07-22T09:30:03+00:00</updated>
+	<title>(Pop) [CD] VA - Silver Dragon (The Best of Japan, Korean and China music) - 199x, FLAC (image+.cue), lossless [508.1 MB]</title>
+	<author>
+		<name>susursi7</name>
+	</author>
+	<category term="f-1330" label="Восточноазиатская поп-музыка (lossless)" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-22:/t/6084377</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084377" />
+	<updated>2021-07-22T09:29:30+00:00</updated>
+	<title>[TR24][OF] Lars-Erik Ter Jung, Terjungensemble, Ingebjørg Lognvik Reinholdt &amp; Åshild Breie Nyhus - Den Annen Sang - 2021 (Classical) [1.85 GB]</title>
+	<author>
+		<name>ЯОR</name>
+	</author>
+	<category term="f-1884" label="Классика и классика в современной обработке (Hi-Res stereo)" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-22:/t/6084376</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084376" />
+	<updated>2021-07-22T09:24:48+00:00</updated>
+	<title>(Hard Rock, Funk Rock) [CD] Stevie Salas - The Soulblasters Of The Universe - 2004, FLAC (image+.cue), lossless [338.8 MB]</title>
+	<author>
+		<name>gssmg7</name>
+	</author>
+	<category term="f-1702" label="Classic Rock &amp; Hard Rock (lossless)" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-22:/t/5955357</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=5955357" />
+	<updated>2021-07-22T09:23:40+00:00</updated>
+	<title>[Обновлено] Shu/Сю - Maou Gakuin No Futekigousha/Непригодный для Академии Владыки Демонов [2017, FB2, EPUB, DOCX, RUS][1-6 Тома] [122 MB]</title>
+	<author>
+		<name>Yollori</name>
+	</author>
+	<category term="f-2458" label="Ранобэ" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-22:/t/6084342</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084342" />
+	<updated>2021-07-22T09:23:09+00:00</updated>
+	<title>[Обновлено] (Metal) VA - Monsters of Metal, Vol. 2 - 2004, MP3, 320 kbps [172.6 MB]</title>
+	<author>
+		<name>09-11-2001</name>
+	</author>
+	<category term="f-2231" label="Сборники (lossy)" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-22:/t/4116722</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=4116722" />
+	<updated>2021-07-22T09:22:45+00:00</updated>
+	<title>(Brutal Death Metal) Terrordrome - The Day of Sacrilege - 2012, MP3, 320 kbps [75.8 MB]</title>
+	<author>
+		<name>smelya</name>
+	</author>
+	<category term="f-1731" label="Grind, Brutal Death (lossy)" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-22:/t/4033690</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=4033690" />
+	<updated>2021-07-22T09:22:04+00:00</updated>
+	<title>(Brutal Death Metal) Carnality - Carnality - 2011, MP3, 320 kbps [87 MB]</title>
+	<author>
+		<name>bloodbath666</name>
+	</author>
+	<category term="f-1731" label="Grind, Brutal Death (lossy)" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-22:/t/6084375</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084375" />
+	<updated>2021-07-22T09:19:57+00:00</updated>
+	<title>[TR24][OF] Wayne Shorter - Odyssey Of Iska - 1970/1987/2013 (Remastered) (Jazz) [1.43 GB]</title>
+	<author>
+		<name>ЯОR</name>
+	</author>
+	<category term="f-2302" label="Джаз и Блюз (Hi-Res stereo)" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-22:/t/6084373</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084373" />
+	<updated>2021-07-22T09:16:41+00:00</updated>
+	<title>[Физиология] Анохин П.К. (гл. ред.) - [Журнал] Успехи физиологических наук - 1971 - Том 2 [1971, DjVu, RUS] [6.4 MB]</title>
+	<author>
+		<name>manicminer</name>
+	</author>
+	<category term="f-2528" label="Научная медицинская периодика (газеты и журналы)" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-22:/t/6084372</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084372" />
+	<updated>2021-07-22T09:14:50+00:00</updated>
+	<title>[RM] [restored] [declipped] [16/44] (Progressive Death Metal) Mechanism - Inspired Horrific - 2009, FLAC (tracks+.cue) [300.1 MB]</title>
+	<author>
+		<name>Лисной Йожыг</name>
+	</author>
+	<category term="f-134" label="Музыка (lossless)" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-22:/t/6084209</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084209" />
+	<updated>2021-07-22T09:14:28+00:00</updated>
+	<title>[Обновлено] [Сборник] Сборник модов на minecraft 1.12.2 [P] [RUS + ENG / RUS + ENG] (2021) (1.12.2) [minecraft, 1.12.2, Mod] [Wineskin] [12+] [164.8 MB]</title>
+	<author>
+		<name>keyrsad</name>
+	</author>
+	<category term="f-2480" label="Неофициальные модификации, плагины, дополнения" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-22:/t/6084371</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084371" />
+	<updated>2021-07-22T09:14:15+00:00</updated>
+	<title>Кубок Либертадорес 2021 / Copa Libertadores / 1/8 финала / 2-й матч / Архентинос Хуниорс (Аргентина) — Ривер Плейт (Аргентина) / Argentinos Juniors — River Plate y Justicia / Футбол 3 HD [22.07.2021, Футбол, HDTV/1080i, MKV/H.264, UKR] [4.56 GB]</title>
+	<author>
+		<name>Effenberg</name>
+	</author>
+	<category term="f-2014" label="Международные турниры" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-22:/t/6084370</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084370" />
+	<updated>2021-07-22T09:11:28+00:00</updated>
+	<title>Эксклюзивная классика (АСТ) - Цицерон Марк Туллий - О боли, горе и смерти: [сборник] [2021, PDF/EPUB/FB2/RTF, RUS] [10.9 MB]</title>
+	<author>
+		<name>RG22 6HY</name>
+	</author>
+	<category term="f-995" label="Философия" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-22:/t/6084289</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084289" />
+	<updated>2021-07-22T09:07:11+00:00</updated>
+	<title>[Обновлено] Три дочери / Tri dcéry / Tri dcery (Штефан Угер / Stefan Uher) [1967, Чехословакия, Драма, Сатира, HDTVRip-AVC] Original Slk / Svk + Sub Rus (Other One) [1.47 GB]</title>
+	<author>
+		<name>Gersuzu</name>
+	</author>
+	<category term="f-124" label="Арт-хаус и авторское кино" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-22:/t/6084334</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084334" />
+	<updated>2021-07-22T09:02:52+00:00</updated>
+	<title>Кубок Испании 1979-1980 / Финал / Реал Мадрид - Кастилия / Real Madrid [04.06.1980, Футбол, WEB-DL HD/1080p/25fps, TS/H.264, SPA] [4.65 GB]</title>
+	<author>
+		<name>leomessi00</name>
+	</author>
+	<category term="f-1623" label="Испания" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-22:/t/6084369</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084369" />
+	<updated>2021-07-22T09:01:50+00:00</updated>
+	<title>Emergence Audio - Quantum 1.2 (KONTAKT) [7.4 GB]</title>
 	<author>
 		<name>vorunA2016</name>
 	</author>
 	<category term="f-2421" label="Библиотеки и саундбанки для сэмплеров, пресеты для синтезаторов" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-20:/t/6069202</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6069202" />
-	<updated>2021-07-20T04:17:56+00:00</updated>
-	<title>[Обновлено] Мальчики - ракетки / Racketsonyeondan / Racket Boys [14 из 16] [2021, спорт / школа, HDTVRip] [RAW] [1080p] DVO (SOFTBOX) [24.44 GB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084368</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084368" />
+	<updated>2021-07-22T09:01:39+00:00</updated>
+	<title>(Score) [CD] Звездные врата: ЗВ-1 / Stargate SG-1 (The Best Of Stargate SG-1. Season 1 (Original Soundtrack From The MGM TV Series)) (by VA) - 2001 (1997), FLAC (tracks+.cue), lossless [345.1 MB]</title>
 	<author>
-		<name>qosta mc</name>
+		<name>EgorKeke</name>
 	</author>
-	<category term="f-915" label="Корейские сериалы с озвучкой" />
+	<category term="f-1631" label="Саундтреки к сериалам (lossless)" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-20:/t/6083587</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083587" />
-	<updated>2021-07-20T04:16:52+00:00</updated>
-	<title>(Pop Punk, Alt-Punk) [STREAM] Nothing Sacred - Foundation [EP] - 2016, FLAC (tracks), lossless [155.6 MB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084367</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084367" />
+	<updated>2021-07-22T08:59:27+00:00</updated>
+	<title>Суперкубок Испании 1990 / 1-й матч / Барселона - Реал Мадрид / Real Madrid [05.12.1990, Футбол, WEB-DL HD/1080p/25fps, TS/H.264, SPA] [4.65 GB]</title>
 	<author>
-		<name>09-11-2001</name>
+		<name>leomessi00</name>
 	</author>
-	<category term="f-1742" label="Indie, Post-Rock &amp; Post-Punk (lossless)" />
+	<category term="f-1623" label="Испания" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-20:/t/6083585</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083585" />
-	<updated>2021-07-20T04:08:58+00:00</updated>
-	<title>Стыд / Shame / Skammen (Ингмар Бергман / Ingmar Bergman) [1968, Швеция, драма, BDRip 720p] [US] [Criterion Collection] DVO (НТВ+) + Sub Rus, Eng + Original Swe [7.64 GB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084365</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084365" />
+	<updated>2021-07-22T08:51:34+00:00</updated>
+	<title>Кубок Либертадорес 2021 / Copa Libertadores / 1/8 финала / 2-й матч / Фламенго (Бразилия) — Дефенса и Хустисия (Аргентина) / Flamengo — Defensa y Justicia / Матч! Футбол 2 HD [22.07.2021, Футбол, HDTV/1080i/25fps, MKV/H.264, RUS] [7.66 GB]</title>
 	<author>
-		<name>msltel</name>
+		<name>Effenberg</name>
+	</author>
+	<category term="f-2014" label="Международные турниры" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-22:/t/6084364</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084364" />
+	<updated>2021-07-22T08:51:11+00:00</updated>
+	<title>Хижина в лесу: Новая глава / Demon Hole (Джош Крук / Josh Crook) [2017, США, ужасы, комедия, HDTV 1080i] MVO [3.18 GB]</title>
+	<author>
+		<name>Karl Karlovich</name>
 	</author>
 	<category term="f-2198" label="HD Video" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-20:/t/6083584</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083584" />
-	<updated>2021-07-20T03:52:10+00:00</updated>
-	<title>Человек-лампа / The Lamp Man [ONA] [1 из 1] [Без хардсаба] [ZXX] [2017, приключения, WEBRip] [1080p] [37.6 MB]</title>
-	<author>
-		<name>sergeandr</name>
-	</author>
-	<category term="f-1105" label="Аниме (HD Video)" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-20:/t/6083582</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083582" />
-	<updated>2021-07-20T03:31:25+00:00</updated>
-	<title>[Обновлено] (Pop, Soft Rock) Bulb - Magical Thinking - 2020, MP3, 320 kbps [98.3 MB]</title>
-	<author>
-		<name>09-11-2001</name>
-	</author>
-	<category term="f-428" label="Зарубежная поп-музыка (lossy)" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-20:/t/6083577</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083577" />
-	<updated>2021-07-20T03:30:34+00:00</updated>
-	<title>(Rock) Nothing Sacred - In This World - 2013, MP3, 320 kbps [101.8 MB]</title>
-	<author>
-		<name>09-11-2001</name>
-	</author>
-	<category term="f-2330" label="AOR (Melodic Hard Rock, Arena rock) (lossy)" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-20:/t/6083360</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083360" />
-	<updated>2021-07-20T03:04:58+00:00</updated>
-	<title>(RnB / Soul) Jordan Bratton - Дискография: 9 Релизов (2013-2017), MP3, 320 kbps [295.9 MB]</title>
-	<author>
-		<name>ARSENAL_LONDON</name>
-	</author>
-	<category term="f-1172" label="Зарубежный R&#039;n&#039;B (lossy)" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-20:/t/6083580</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083580" />
-	<updated>2021-07-20T03:03:01+00:00</updated>
-	<title>Juanita Daley</title>
-	<author>
-		<name>marikamarisha</name>
-	</author>
-	<category term="f-1874" label="Поиск музыки" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-20:/t/6083579</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083579" />
-	<updated>2021-07-20T03:02:02+00:00</updated>
-	<title>(Hardcore, Techno, Acid, House, Breakbeat) [CD] DJ Edge - EDGE CD*001 - 1994, FLAC (tracks+.cue), lossless [406.7 MB]</title>
-	<author>
-		<name>xapuu</name>
-	</author>
-	<category term="f-1829" label="Hardcore, Hardstyle, Jumpstyle (lossless)" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-20:/t/6083578</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083578" />
-	<updated>2021-07-20T02:56:39+00:00</updated>
-	<title>Ezspecial</title>
-	<author>
-		<name>marikamarisha</name>
-	</author>
-	<category term="f-1874" label="Поиск музыки" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-20:/t/3560004</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=3560004" />
-	<updated>2021-07-20T02:55:51+00:00</updated>
-	<title>[Обновлено] (Brutal Death Metal / Deathcore) Waking The Cadaver - Дискография, (5 Релизов) , 2007 - 2021, MP3, 320 kbps [267.5 MB]</title>
-	<author>
-		<name>RounDeviL</name>
-	</author>
-	<category term="f-1747" label="Emocore, Post-hardcore, Metalcore (lossy)" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-20:/t/6083576</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083576" />
-	<updated>2021-07-20T02:43:04+00:00</updated>
-	<title>(Rock) [STREAM] Nothing Sacred - In This World - 2013, FLAC (tracks), lossless [271 MB]</title>
-	<author>
-		<name>09-11-2001</name>
-	</author>
-	<category term="f-2329" label="AOR (Melodic Hard Rock, Arena rock) (lossless)" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-20:/t/4902290</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=4902290" />
-	<updated>2021-07-20T02:32:12+00:00</updated>
-	<title>[Обновлено] Звуковые дорожки от Glowamy</title>
-	<author>
-		<name>Glowamy</name>
-	</author>
-	<category term="f-906" label="Ищу / Предлагаю звуковые дорожки и переводы" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-20:/t/6083315</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083315" />
-	<updated>2021-07-20T02:32:03+00:00</updated>
-	<title>[Обновлено] (Heavy Metal) [LP] [24/192] Ozzy Osbourne - Blizzard Of Ozz - 1980, FLAC (image+.cue) [1.54 GB]</title>
-	<author>
-		<name>клаccик</name>
-	</author>
-	<category term="f-1766" label="Зарубежный и Отечественный Metal (оцифровки)" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-20:/t/6066605</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6066605" />
-	<updated>2021-07-20T02:30:30+00:00</updated>
-	<title>[Обновлено] Nik Collection 4 by DxO 4.1.0.0 x64 [2021, MULTILANG] [894 MB]</title>
-	<author>
-		<name>GoAkko</name>
-	</author>
-	<category term="f-1080" label="Плагины для программ компании Adobe" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-20:/t/6083572</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083572" />
-	<updated>2021-07-20T02:27:29+00:00</updated>
-	<title>Судная ночь навсегда / The Forever Purge (Эверардо Валерио Гоут / Everardo Gout) [2021, США, Ужасы, фантастика, боевик, триллер, WEBRip] DVO (Pazl Voice) [1.46 GB]</title>
-	<author>
-		<name>vitolinform</name>
-	</author>
-	<category term="f-1950" label="Фильмы 2021" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-20:/t/6083575</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083575" />
-	<updated>2021-07-20T02:26:46+00:00</updated>
-	<title>Иностранный без репетитора - Мизгулина М.Н. - Японская грамматика без репетитора [2021, PDB, RUS] [1.7 MB]</title>
-	<author>
-		<name>Osco do Casco</name>
-	</author>
-	<category term="f-1270" label="Японский язык" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-20:/t/6083522</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083522" />
-	<updated>2021-07-20T02:25:50+00:00</updated>
-	<title>Звездный отряд: Война на Марсе / Crimson Force (Дэвид Флорес / David Flores) [2005, США, фантастика, WEB-DLRip] Dub (Netflix) [1.37 GB]</title>
-	<author>
-		<name>edich2</name>
-	</author>
-	<category term="f-2091" label="Фильмы 2001-2005" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-20:/t/6082852</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6082852" />
-	<updated>2021-07-20T02:24:37+00:00</updated>
-	<title>Ravenland [P] [ENG] (2021) (1.0) [Scene] [961.2 MB]</title>
-	<author>
-		<name>Antalindor</name>
-	</author>
-	<category term="f-635" label="Горячие Новинки" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-20:/t/6083404</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083404" />
-	<updated>2021-07-20T02:23:56+00:00</updated>
-	<title>Deca [P] [ENG / ENG] (2021) [Scene] [8.98 GB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/5935450</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=5935450" />
+	<updated>2021-07-22T08:50:50+00:00</updated>
+	<title>[Обновлено] [В разработке] Night of the Dead [P] [RUS + ENG + 10] (2020) (1.1.0.3 alpha) [Portable] [6.9 GB]</title>
 	<author>
 		<name>e4player</name>
 	</author>
-	<category term="f-635" label="Горячие Новинки" />
+	<category term="f-646" label="Экшены от третьего лица" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-20:/t/6083524</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083524" />
-	<updated>2021-07-20T02:12:35+00:00</updated>
-	<title>Буги Бой / Boogie Boy (Крэйг Хаманн / Craig Hamann) [1998, США, Триллер, криминал, HDRip] DVO + AVO (В. Горчаков) + Original Eng [1.47 GB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084346</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084346" />
+	<updated>2021-07-22T08:43:47+00:00</updated>
+	<title>Быченин Александр - Сафари 1, Разведка боем [Константин Александров, 2021, 128 kbps, MP3] [728.2 MB]</title>
 	<author>
-		<name>xelon2006</name>
+		<name>gdanilcka</name>
 	</author>
-	<category term="f-2221" label="Фильмы 1991-2000" />
+	<category term="f-2387" label="[Аудио] Российская фантастика, фэнтези, мистика, ужасы, фанфики" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-20:/t/6083548</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083548" />
-	<updated>2021-07-20T02:05:40+00:00</updated>
-	<title>История Сюнкин / Shunkinsho / Spring Koto / A Portrait of Shunkin (Кацуми Нисикава / Katsumi Nishikawa) [1976, Япония, Драма, BDRip] MVO (STEPonee) + Sub Rus, Eng + Original Jpn [1.46 GB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084363</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084363" />
+	<updated>2021-07-22T08:42:01+00:00</updated>
+	<title>(Pop, Vocal, Soundtrack) [7&quot;] [32-192] Владимир Дашкевич - Песни Из Телефильма &quot;Бумбараш&quot; - 1973, WavPack (image+.cue) [496 MB]</title>
 	<author>
-		<name>vitolinform</name>
+		<name>Hecaxappp</name>
 	</author>
-	<category term="f-934" label="Азиатские фильмы" />
+	<category term="f-1625" label="Саундтреки и мюзиклы (оцифровки)" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-20:/t/6083529</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083529" />
-	<updated>2021-07-20T02:05:04+00:00</updated>
-	<title>Дурочка / Inane (vera Pa Kthim) (Бесник Биша / Besnik Bisha) [2019, Албания, драма, WEB-DLRip] [IVI] DVO (Creative Arts Media) [1.37 GB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084362</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084362" />
+	<updated>2021-07-22T08:41:19+00:00</updated>
+	<title>(Folk | Blues) [STREAM] Ida Mae - Click Click Domino - 2021, FLAC (tracks), lossless [318.6 MB]</title>
 	<author>
-		<name>flaSI-I</name>
+		<name>ЯОR</name>
 	</author>
-	<category term="f-2200" label="Фильмы 2016-2020" />
+	<category term="f-1706" label="Folk-Rock (lossless)" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-20:/t/6083574</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083574" />
-	<updated>2021-07-20T02:04:45+00:00</updated>
-	<title>(Indie, Alternative, Rock, Post-Rock) [STREAM] Nothing Sacred - Spanktravision [EP] - 2002, FLAC (tracks), lossless [86.4 MB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084360</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084360" />
+	<updated>2021-07-22T08:36:12+00:00</updated>
+	<title>(Folk) [STREAM] VA - The Iron Muse - a Panorama of Industrial Folk Music - 1993, FLAC (tracks), lossless [262.4 MB]</title>
 	<author>
-		<name>09-11-2001</name>
+		<name>ЯОR</name>
 	</author>
-	<category term="f-1742" label="Indie, Post-Rock &amp; Post-Punk (lossless)" />
+	<category term="f-1133" label="Западноевропейский фолк (lossless)" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-20:/t/6083474</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083474" />
-	<updated>2021-07-20T02:04:25+00:00</updated>
-	<title>Бродвейские ищейки / Bloodhounds Of Broadway (Хэрмон Джонс / Harmon Jones) [1952, США, комедия, мюзикл, криминал, DVDRip] VO (Grampy) + Original Eng [1.49 GB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084359</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084359" />
+	<updated>2021-07-22T08:31:49+00:00</updated>
+	<title>(Blues/Solo Acoustic) Bonnie Raitt - The Jabberwocky Club, Syracuse University, NY, SBD - 1971-03-27, FLAC (tracks), lossless [591.2 MB]</title>
 	<author>
-		<name>Grampy</name>
+		<name>1960Mila</name>
 	</author>
-	<category term="f-187" label="Классика мирового кинематографа" />
+	<category term="f-2293" label="Blues (Texas, Chicago, Modern and Others) (lossless)" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-20:/t/6083319</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083319" />
-	<updated>2021-07-20T02:03:50+00:00</updated>
-	<title>Адский дом / Легенда адского дома / Legend of Hell House (Джон Хаф / John Hough) [1973, Великобритания, ужасы, триллер, детектив, мистика, BDRip] VO [1.45 GB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084357</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084357" />
+	<updated>2021-07-22T08:24:59+00:00</updated>
+	<title>(Pop, Vocal, Soundtrack) [7&quot;, flexi] [32-192] Владимир Дашкевич - Песни Из Телефильма &quot;Бумбараш&quot; - 1973, WavPack (image+.cue) [493.9 MB]</title>
 	<author>
-		<name>edich2</name>
+		<name>Hecaxappp</name>
 	</author>
-	<category term="f-2090" label="Фильмы до 1990 года" />
+	<category term="f-1625" label="Саундтреки и мюзиклы (оцифровки)" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-20:/t/6083573</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083573" />
-	<updated>2021-07-20T02:01:04+00:00</updated>
-	<title>(Gospel, Gospel Blues, Preacher, Preaching) [CD] VA - DOCD-5406 Rev. H. R. Tomlin and Rev. S. J. Worell - (1926-1927) - 1995, FLAC (tracks+.cue), lossless [149.1 MB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084350</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084350" />
+	<updated>2021-07-22T08:24:44+00:00</updated>
+	<title>Бандиты / Bandidos (Массимо Далламано / Massimo Dallamano) [1967, Италия, Испания, вестерн, WEB-DL 1080p] VO (erogg) + Sub Rus, Eng, Ita + Original Ita [6.99 GB]</title>
 	<author>
-		<name>yardraw</name>
+		<name>MasonKaV</name>
 	</author>
-	<category term="f-2290" label="Roots, Pre-War Blues, Early R&amp;B, Gospel (lossless)" />
+	<category term="f-2199" label="Классика мирового кинематографа (HD Video)" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-20:/t/6083571</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083571" />
-	<updated>2021-07-20T01:57:37+00:00</updated>
-	<title>(Indie, Alternative, Rock, Post-Rock) Nothing Sacred - Spanktravision [EP] - 2002, MP3, 320 kbps [36.3 MB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084356</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084356" />
+	<updated>2021-07-22T08:23:30+00:00</updated>
+	<title>Starfinder 2016-2020 [ENG] [900.2 MB]</title>
 	<author>
-		<name>09-11-2001</name>
+		<name>XentryTechno</name>
 	</author>
-	<category term="f-1743" label="Indie, Post-Rock &amp; Post-Punk (lossy)" />
+	<category term="f-1973" label="Оригинальные каталоги по подбору запчастей" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-20:/t/5912359</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=5912359" />
-	<updated>2021-07-20T01:53:56+00:00</updated>
-	<title>[Обновлено] AI War 2 [L] [ENG / ENG] (2019) (3.312 + 2 DLC) [GOG] [2.1 GB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084355</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084355" />
+	<updated>2021-07-22T08:20:55+00:00</updated>
+	<title>XXXII Летние Олимпийские Игры 2020 / Софтбол / Softball / Женщины / Групповой раунд / Тур 1 / Италия - США / Italy - USA [21.07.2021, WEB-DL HD/1080p/50fps, MKV/H.264, INT] [4.89 GB]</title>
 	<author>
-		<name>Forgettable</name>
+		<name>hereisit</name>
 	</author>
-	<category term="f-51" label="Стратегии в реальном времени" />
+	<category term="f-1794" label="Другие виды спорта" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-20:/t/6083570</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083570" />
-	<updated>2021-07-20T01:51:51+00:00</updated>
-	<title>Фитнес / Сезон 5 / Серии: 1-3 из 20 (Кирилл Васильев) [2021, комедия, WEBRip 720p] [С цензурой] [1.58 GB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084354</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084354" />
+	<updated>2021-07-22T08:20:01+00:00</updated>
+	<title>XXXII Летние Олимпийские Игры 2020 / Футбол / Женщины / Группа F / 1-й тур / Китай — Бразилия / China — Brazil / Sport 5 Live HD [21.07.2021, Футбол, WEB-DL HD/720p/25fps, MKV/H.264, IL] [1.73 GB]</title>
 	<author>
-		<name>7turza</name>
+		<name>baggo17879</name>
 	</author>
-	<category term="f-9" label="Русские сериалы" />
+	<category term="f-2485" label="Футбол" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-20:/t/6083569</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083569" />
-	<updated>2021-07-20T01:49:16+00:00</updated>
-	<title>Фитнес / Сезон 5 / Серии: 1-3 из 20 (Кирилл Васильев) [2021, комедия, WEBRip 1080p] [С цензурой] [2.33 GB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6081603</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6081603" />
+	<updated>2021-07-22T08:19:59+00:00</updated>
+	<title>[Обновлено] National Geographic. Дикий тунец (10 сезон: 1-2 серия) / Wicked Tuna [2021, Документальный, HDTV 1080i] [4.26 GB]</title>
 	<author>
-		<name>7turza</name>
+		<name>БэстЛайв</name>
 	</author>
-	<category term="f-9" label="Русские сериалы" />
+	<category term="f-314" label="Документальные (HD Video)" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-20:/t/6066561</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6066561" />
-	<updated>2021-07-20T01:29:01+00:00</updated>
-	<title>[Обновлено] Nik Collection 4 by DxO 4.1.0.0 [macOS] [TNT] [1.16 GB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084353</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084353" />
+	<updated>2021-07-22T08:17:32+00:00</updated>
+	<title>Кубок Либертадорес 2021 / Copa Libertadores / 1/8 финала / 2-й матч / Палмейрас (Бразилия) — Универсидад Католика (Чили) / Palmeiras — Universidad Católica / Матч! Футбол 2 HD [22.07.2021, Футбол, HDTV/1080i/25fps, MKV/H.264, RUS] [6.93 GB]</title>
+	<author>
+		<name>Effenberg</name>
+	</author>
+	<category term="f-2014" label="Международные турниры" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-22:/t/5959210</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=5959210" />
+	<updated>2021-07-22T08:16:32+00:00</updated>
+	<title>[Обновлено] Tale of Ninja: Fall of the Miyoshi [P] [RUS + ENG + 3] (2021) [Scene] [10.97 GB]</title>
+	<author>
+		<name>e4player</name>
+	</author>
+	<category term="f-52" label="Ролевые игры" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-22:/t/6084352</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084352" />
+	<updated>2021-07-22T08:15:39+00:00</updated>
+	<title>Погожева Л.П. - Будапештские тетради [1972, DjVu, RUS] [5.3 MB]</title>
+	<author>
+		<name>manicminer</name>
+	</author>
+	<category term="f-2157" label="Кино, театр, ТВ, мультипликация, цирк" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-22:/t/6084351</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084351" />
+	<updated>2021-07-22T08:12:38+00:00</updated>
+	<title>[Обновлено] [DVDA][DVDA] Fleetwood Mac - Rumours - 1977 (Rock) [4.28 GB]</title>
+	<author>
+		<name>dida_55</name>
+	</author>
+	<category term="f-1759" label="Конверсии Blu-Ray, ADVD и DVD-Audio" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-22:/t/6081498</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6081498" />
+	<updated>2021-07-22T08:03:11+00:00</updated>
+	<title>[Обновлено] Документалист. Охотник за призраками / Сезон: 1 / Серии: 1-6 из 8 (Илья Куликов, Никита Грамматиков, Аня Мирохина) [2020, Драма, мистика, фильм ужасов, WEBRip 1080p] [8.33 GB]</title>
+	<author>
+		<name>epifan63</name>
+	</author>
+	<category term="f-81" label="Русские сериалы (HD Video)" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-22:/t/5905479</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=5905479" />
+	<updated>2021-07-22T08:02:51+00:00</updated>
+	<title>[Обновлено] BBEdit 13.5.7 [macOS] [SN] [19.3 MB]</title>
 	<author>
 		<name>GoAkko</name>
 	</author>
-	<category term="f-2237" label="Плагины для программ компании Adobe (Mac OS)" />
+	<category term="f-1371" label="Программы для интернета и сетей (Mac OS)" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-20:/t/6083568</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083568" />
-	<updated>2021-07-20T01:20:19+00:00</updated>
-	<title>Евменов Л.Ф. (сост.) - Логика достоинства и свободы личности [2016, PDF, RUS] [6.4 MB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084349</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084349" />
+	<updated>2021-07-22T07:57:32+00:00</updated>
+	<title>XXXII Летние Олимпийские Игры 2020 / Софтбол / Softball / Женщины / Групповой раунд / Тур 1 / Австралия - Япония / Australia - Japan [21.07.2021, WEB-DL HD/1080p/50fps, MKV/H.264, INT] [4.63 GB]</title>
 	<author>
-		<name>strash83</name>
+		<name>hereisit</name>
 	</author>
-	<category term="f-1687" label="Юридические науки. Право. Криминалистика" />
+	<category term="f-1794" label="Другие виды спорта" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-20:/t/6083567</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083567" />
-	<updated>2021-07-20T01:09:31+00:00</updated>
-	<title>(Score) Endzone: A World Apart (Save The World Edition) (by Jonas Albrecht) [WEB] - 2020, MP3, 320 kbps [91.5 MB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084348</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084348" />
+	<updated>2021-07-22T07:49:47+00:00</updated>
+	<title>(Rock) [LP] [32/192] Deep Purple - Stormbringer (1974) - 1974, WavPack (tracks) [1.88 GB]</title>
 	<author>
-		<name>Doom 2010</name>
+		<name>gabesz80</name>
 	</author>
-	<category term="f-783" label="Саундтреки к играм (lossy)" />
+	<category term="f-1756" label="Зарубежная рок-музыка (оцифровки)" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-20:/t/5811599</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=5811599" />
-	<updated>2021-07-20T01:02:13+00:00</updated>
-	<title>Игнатов Роман - Криминальные очерки [2019-2020, EPUB/FB2/MOBI/PDF, RUS] [100.8 MB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084347</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084347" />
+	<updated>2021-07-22T07:44:19+00:00</updated>
+	<title>(Soulful, Deep House) VA - Soulful Deep House Music, Vol. 1-2 - 2021, MP3, 320 kbps [771.5 MB]</title>
 	<author>
-		<name>vladimir_silantiev</name>
+		<name>Okamika</name>
 	</author>
-	<category term="f-2375" label="Публицистика, журналистика" />
+	<category term="f-840" label="House (Проморелизы, сборники) (lossy)" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-20:/t/6018783</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6018783" />
-	<updated>2021-07-20T00:35:37+00:00</updated>
-	<title>[Обновлено] Серия - Малыш выбирает профессию (6 книг) [2010, PDF, RUS] [81.2 MB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/5835287</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=5835287" />
+	<updated>2021-07-22T07:38:07+00:00</updated>
+	<title>[Обновлено] (Cantopop / Pop) Mimi Lo (罗敏庄) - Collection (9 albums) - 2003 - 2013, MP3, 320 kbps [1022.2 MB]</title>
 	<author>
-		<name>strash83</name>
+		<name>tsarevv</name>
 	</author>
-	<category term="f-1400" label="Воспитание и развитие" />
+	<category term="f-1331" label="Восточноазиатская поп-музыка (lossy)" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-20:/t/6083566</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083566" />
-	<updated>2021-07-20T00:20:26+00:00</updated>
-	<title>Бок о бок / Trading Paint (Каржан Кадер / Karzan Kader) [2019, Испания, США, Боевик, триллер, драма, спорт, BDRemux 1080p] MVO (iTunes) + Original (Eng) + Sub (eng) [19.89 GB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084343</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084343" />
+	<updated>2021-07-22T07:36:06+00:00</updated>
+	<title>Нью-Йорк, Нью-Йорк / New York, New York (Мартин Скорсезе / Martin Scorsese) [1977, США, Мюзикл, драма, музыка, HDRip] DVO (СВ-Дубль) + Original Eng [1.46 GB]</title>
 	<author>
-		<name>pk5360114</name>
-	</author>
-	<category term="f-2198" label="HD Video" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-20:/t/5963236</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=5963236" />
-	<updated>2021-07-20T00:20:03+00:00</updated>
-	<title>[Обновлено] [Patch] SmokePatch 21.3.6 + Mega Facepack + Ukraine Expansion [eFootball PES 2021] [19.06 GB]</title>
-	<author>
-		<name>@CriRo7@</name>
-	</author>
-	<category term="f-2480" label="Неофициальные модификации, плагины, дополнения" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-20:/t/6083565</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083565" />
-	<updated>2021-07-20T00:19:02+00:00</updated>
-	<title>Барнс Дж. - Электронное конструирование: Методы борьбы с помехами [1990, DjVu, RUS] [5.1 MB]</title>
-	<author>
-		<name>strash83</name>
-	</author>
-	<category term="f-1325" label="Электроника / Радио" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-20:/t/6083217</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083217" />
-	<updated>2021-07-20T00:18:02+00:00</updated>
-	<title>[Обновлено] (Black/Doom Metal) Acârash (Acarash) - Descend to Purity - 2020, MP3, 320 kbps [87.9 MB]</title>
-	<author>
-		<name>09-11-2001</name>
-	</author>
-	<category term="f-1778" label="Black (lossy)" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-20:/t/6083564</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083564" />
-	<updated>2021-07-20T00:13:04+00:00</updated>
-	<title>Библиотека программиста - Jacqueline Nolis, Emily Robinson / Нолис Жаклин, Робинсон Эмили - Build a Career in Data Science/ Data Science для карьериста [2021, PDF, RUS] [7.7 MB]</title>
-	<author>
-		<name>Propos</name>
-	</author>
-	<category term="f-1418" label="Компьютерная литература" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-20:/t/5263313</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=5263313" />
-	<updated>2021-07-20T00:12:32+00:00</updated>
-	<title>[Обновлено] - Конкурсы прогнозов. Олимпийские игры [Общая тема]</title>
-	<author>
-		<name>vavochkin2</name>
-	</author>
-	<category term="f-2105" label="Конкурсы спортивных прогнозов" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-20:/t/6083563</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083563" />
-	<updated>2021-07-20T00:06:17+00:00</updated>
-	<title>Чижевский А.Л. - Физические факторы исторического процесса [Б.г. [репринт изд. 1924], DjVu, RUS] [4.7 MB]</title>
-	<author>
-		<name>Scaramucciа</name>
-	</author>
-	<category term="f-1349" label="Методология и философия исторической науки" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-20:/t/6083216</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083216" />
-	<updated>2021-07-20T00:05:51+00:00</updated>
-	<title>[Обновлено] Баскетбол. Олимпийские игры 2020. Мужчины [Начало 25 июля 2021 г.]</title>
-	<author>
-		<name>vavochkin2</name>
-	</author>
-	<category term="f-2105" label="Конкурсы спортивных прогнозов" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-20:/t/6083218</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083218" />
-	<updated>2021-07-20T00:05:42+00:00</updated>
-	<title>[Обновлено] (Black/Doom Metal) Acârash (Acarash) - In Chaos Becrowned - 2018, MP3, 320 kbps [93.6 MB]</title>
-	<author>
-		<name>09-11-2001</name>
-	</author>
-	<category term="f-1778" label="Black (lossy)" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-20:/t/6083562</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083562" />
-	<updated>2021-07-20T00:05:17+00:00</updated>
-	<title>Ищу &quot;Нигматуллин. Вратарь республики&quot; (ОРТ, 26.05.2002)</title>
-	<author>
-		<name>nopok</name>
-	</author>
-	<category term="f-77" label="Ищу / Предлагаю / Анонсы ТВ" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-20:/t/6083561</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083561" />
-	<updated>2021-07-20T00:03:00+00:00</updated>
-	<title>Звуки корнета в ночи / Cornet at Nightf (Стэнли Джексон / Stanley Jackson) [1963, Канада, по одноимённому рассказу, драма, семейный, короткометражный, WEBRip] VO (Алексей Яковлев) + Original Eng. [170.8 MB]</title>
-	<author>
-		<name>zaq-293</name>
+		<name>Arle-kino</name>
 	</author>
 	<category term="f-7" label="Зарубежное кино" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-19:/t/6083560</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083560" />
-	<updated>2021-07-19T23:58:04+00:00</updated>
-	<title>(Cloud Rap, Alternative) [WEB] Yung Lean - Discography (8 Albums, 21 Singles) - 2013 - 2020, FLAC (tracks), lossless [2.35 GB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084328</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084328" />
+	<updated>2021-07-22T07:23:33+00:00</updated>
+	<title>(Metal) [STREAM] VA - Monsters of Metal, Vol. 2 - 2004, FLAC (tracks), lossless [575.6 MB]</title>
 	<author>
-		<name>Xerxx8</name>
+		<name>09-11-2001</name>
 	</author>
-	<category term="f-909" label="Зарубежный Рэп, Хип-Хоп (lossless)" />
+	<category term="f-2230" label="Сборники (lossless)" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-19:/t/6083559</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083559" />
-	<updated>2021-07-19T23:52:36+00:00</updated>
-	<title>(Soundtrack) Genshin Impact (Yu-Peng Chen, Dimeng Yuan) - 2020-2021, MP3, 320 kbps [998.2 MB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084093</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084093" />
+	<updated>2021-07-22T07:22:17+00:00</updated>
+	<title>[Обновлено] [ПРИРОДА] Обои для ПК (Linux, Mac, Windows) [1920, x 1080] 30 шт. [13.9 MB]</title>
 	<author>
-		<name>Awasaky</name>
+		<name>Orjis</name>
 	</author>
-	<category term="f-783" label="Саундтреки к играм (lossy)" />
+	<category term="f-630" label="Обои" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-19:/t/6083556</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083556" />
-	<updated>2021-07-19T23:52:23+00:00</updated>
-	<title>Баскетбол. Олимпийские игры 2020. Женщины [Начало 26 июля 2021 г.]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084338</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084338" />
+	<updated>2021-07-22T07:19:22+00:00</updated>
+	<title>XXXII Летние Олимпийские Игры 2020 / Олимпийские арены. Специальный репортаж / Матч! ТВ [21.07.2021, IPTV/1080p/25fps, MKV/H.264, RU] [413.1 MB]</title>
 	<author>
-		<name>vavochkin2</name>
+		<name>hereisit</name>
 	</author>
-	<category term="f-2105" label="Конкурсы спортивных прогнозов" />
+	<category term="f-2338" label="Обзорные и аналитические программы" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-19:/t/6083558</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083558" />
-	<updated>2021-07-19T23:37:03+00:00</updated>
-	<title>Дубовенко Александр - Свой дом без ошибок: Что нужно знать заказчику. На опыте строительства для 4000 семей [2021, PDF/EPUB/FB2/RTF, RUS] [81.5 MB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084341</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084341" />
+	<updated>2021-07-22T07:17:41+00:00</updated>
+	<title>(Pop / R&amp;B / Soul) Charles &amp; Eddie - Discography (2 Releases) - 1992-1995, MP3, 320 kbps [285.2 MB]</title>
 	<author>
-		<name>CB1 3EZ</name>
+		<name>alekc-1</name>
 	</author>
-	<category term="f-1575" label="Ремонт, частное строительство, дизайн интерьеров" />
+	<category term="f-428" label="Зарубежная поп-музыка (lossy)" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-19:/t/6083557</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083557" />
-	<updated>2021-07-19T23:35:21+00:00</updated>
-	<title>Сделай сам - Заворотов В.А. - От идеи до модели: Книга для учащихся 4—8 классов средней школы (Изд. 2-е) [1988, DjVu, RUS] [6.4 MB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084339</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084339" />
+	<updated>2021-07-22T07:16:12+00:00</updated>
+	<title>Ханссон Харальд - Взрыв на реке Бёрме [1966, DjVu, RUS] [2.6 MB]</title>
 	<author>
-		<name>Scaramucciа</name>
+		<name>manicminer</name>
 	</author>
-	<category term="f-565" label="Моделизм" />
+	<category term="f-2041" label="Зарубежная литература (XX и XXI век)" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-19:/t/5888477</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=5888477" />
-	<updated>2021-07-19T23:28:42+00:00</updated>
-	<title>[Обновлено] [RUS] Luxion KeyShot Pro 10.2.113 [macOS] [1.01 GB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084337</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084337" />
+	<updated>2021-07-22T07:01:09+00:00</updated>
+	<title>(Balearic, Lounge, Chill Out, Downtempo) VA - Helsinki Orange: Urban Chillout Music - 2021, MP3, 320 kbps [156 MB]</title>
 	<author>
-		<name>GoAkko</name>
+		<name>Okamika</name>
 	</author>
-	<category term="f-1370" label="Программы для создания и обработки графики (Mac OS)" />
+	<category term="f-1862" label="Chillout, Lounge, Downtempo (lossy)" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-19:/t/6083555</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083555" />
-	<updated>2021-07-19T22:51:38+00:00</updated>
-	<title>Соколина Анна (составитель и ответственный редактор) - Архитектура и антропософия [2010, PDF, RUS] [34.5 MB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084336</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084336" />
+	<updated>2021-07-22T06:58:51+00:00</updated>
+	<title>XXXII Летние Олимпийские Игры 2020 / Олимпийский гид / Матч! ТВ [21.07.2021, IPTV/1080p/25fps, MKV/H.264, RU] [2.33 GB]</title>
 	<author>
-		<name>TS2 1RA</name>
+		<name>hereisit</name>
 	</author>
-	<category term="f-2031" label="Архитектура / Строительство / Инженерные сети / Ландшафтный дизайн" />
+	<category term="f-2338" label="Обзорные и аналитические программы" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-19:/t/6083554</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083554" />
-	<updated>2021-07-19T22:50:35+00:00</updated>
-	<title>NASCAR Cup Series 2021. Этап 22. Foxwoods Resort Casino 301 (New Hampshire). Матч! Арена HD [19.07.2021, Автоспорт, HDTVRip/720p/50fps, MKV/H.264, RU] [6.13 GB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6002292</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6002292" />
+	<updated>2021-07-22T06:55:00+00:00</updated>
+	<title>[Обновлено] (Progressive House, Tech House, Deep House, Techno) John Digweed - Transitions (853-881) - 2021, MP3 (image), 320 kbps [7.53 GB]</title>
 	<author>
-		<name>Ales</name>
+		<name>_Denied</name>
 	</author>
-	<category term="f-256" label="Автоспорт" />
+	<category term="f-1859" label="House (Radioshow, Podcast, Liveset, Mixes)" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-19:/t/6083553</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083553" />
-	<updated>2021-07-19T22:44:13+00:00</updated>
-	<title>Mo Thugs Family ‎– Rumors Of War (Instrumental) CD</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084244</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084244" />
+	<updated>2021-07-22T06:50:12+00:00</updated>
+	<title>[Обновлено] Чайковский И.И. (ред.) - Геологические памятники Пермского края [2009, PDF, RUS] [97.6 MB]</title>
 	<author>
-		<name>capri2000</name>
+		<name>ComboFZ</name>
 	</author>
-	<category term="f-1874" label="Поиск музыки" />
+	<category term="f-2029" label="География / Геология / Геодезия" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-19:/t/6083549</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083549" />
-	<updated>2021-07-19T22:36:40+00:00</updated>
-	<title>Хозяйка горы / Серии: 1 из 16 (Екатерина Двигубская) [2020, Драма, детектив, мистика, WEBRip] [661.6 MB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084333</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084333" />
+	<updated>2021-07-22T06:50:06+00:00</updated>
+	<title>Измайлов А.З., Ковалева С.С. - Английский язык: пособие по чтению и переводу (с фонетическим и грамматическим справочниками): учебное пособие [2020, PDF, RUS] [2.1 MB]</title>
 	<author>
-		<name>epifan63</name>
+		<name>fed_alek</name>
 	</author>
-	<category term="f-9" label="Русские сериалы" />
+	<category term="f-1265" label="Английский язык (для взрослых)" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-19:/t/6083343</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083343" />
-	<updated>2021-07-19T22:35:30+00:00</updated>
-	<title>История Сюнкин / Shunkinsho / Spring Koto / A Portrait of Shunkin (Кацуми Нисикава / Katsumi Nishikawa) [1976, Япония, Драма, BDRemux 1080i] MVO (STEPonee) + Sub Rus, Eng + Original Jpn [26.51 GB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084330</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084330" />
+	<updated>2021-07-22T06:45:45+00:00</updated>
+	<title>Лоу Юйле (гл. ред.) - История китайской цивилизации: в 4 т. Т. 4: Конец правления династии Мин и династия Цин (1525–1911) [2020, PDF, RUS] [8.8 MB]</title>
 	<author>
-		<name>vitolinform</name>
+		<name>BT3 9PF</name>
 	</author>
-	<category term="f-2201" label="Азиатские фильмы (HD Video)" />
+	<category term="f-1684" label="Искусствоведение. Культурология" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-19:/t/6027336</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6027336" />
-	<updated>2021-07-19T22:34:17+00:00</updated>
-	<title>[Обновлено] Красная зона / Сезон: 1 / Серии: 1-62 из 100 (Игорь Ромащенко, Всеволод Аравин, Борис Рабей) [2021, мелодрама, драма, WEBRip-AVC]+Sub [29.83 GB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/5233935</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=5233935" />
+	<updated>2021-07-22T06:43:54+00:00</updated>
+	<title>[Обновлено] [Android] Карты всего мира для OsmAnd. OSM + Wiki + SRTM + Затемнение рельефа + Склоны. [2021, MULTILANG +RUS] [484.11 GB]</title>
 	<author>
-		<name>GUree</name>
+		<name>avi32</name>
 	</author>
-	<category term="f-9" label="Русские сериалы" />
+	<category term="f-1517" label="Разное - системы навигации и карты" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-19:/t/6083063</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083063" />
-	<updated>2021-07-19T22:31:37+00:00</updated>
-	<title>(Jazz, Easy Listening) [7&quot;] [24/96] Оркестр – Четыре Танца - 1971, Mono, FLAC (image+.cue) [122.1 MB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084327</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084327" />
+	<updated>2021-07-22T06:43:16+00:00</updated>
+	<title>Ребёнок в ночи / Дитя ночи / Child In The Night (Майк Роуб / Mike Robe) [1990, Италия, США, драма, детектив, триллер, BDRip-AVC] 2х AVO (Визгунов, Дольский) + Sub Eng + Original Eng [2.94 GB]</title>
 	<author>
-		<name>Aleko57</name>
+		<name>msltel</name>
 	</author>
-	<category term="f-450" label="Инструментальная поп-музыка (оцифровки)" />
+	<category term="f-7" label="Зарубежное кино" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-19:/t/5999567</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=5999567" />
-	<updated>2021-07-19T22:01:24+00:00</updated>
-	<title>[Обновлено] Ты прекрасен! / Minami Shineyo / You Are Beautiful / You&#039;re Beautiful [10 из 16] [2009, мелодрама, комедия, WEB-DL] [RAW] [1080p] MVO (Мобильное телевидение) по заказу телеканала Дорама + Original Kor [32.17 GB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084326</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084326" />
+	<updated>2021-07-22T06:38:53+00:00</updated>
+	<title>(R&amp;B / Soul / Pop / Hip-Hop) Amerie - Discography (13 Releases) - 2002-2019, MP3, 320 kbps [798.4 MB]</title>
 	<author>
-		<name>Кyle</name>
+		<name>alekc-1</name>
 	</author>
-	<category term="f-915" label="Корейские сериалы с озвучкой" />
+	<category term="f-1172" label="Зарубежный R&#039;n&#039;B (lossy)" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-19:/t/6083546</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083546" />
-	<updated>2021-07-19T21:56:40+00:00</updated>
-	<title>Научный интерес - Десалл Роб - Чувства: Нейробиология сенсорного восприятия [2021, PDF/EPUB/FB2/RTF, RUS] [24.4 MB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084325</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084325" />
+	<updated>2021-07-22T06:38:33+00:00</updated>
+	<title>[DSD][OF] Cyrille Aimee (Cyrille Aimée) - It&#039;s A Good Day - 2014 (Vocal Jazz, Gypsy) [3.41 GB]</title>
 	<author>
-		<name>PL31 2RQ</name>
+		<name>artyfox</name>
 	</author>
-	<category term="f-2023" label="Точные, естественные и инженерные науки" />
+	<category term="f-2302" label="Джаз и Блюз (Hi-Res stereo)" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-19:/t/6077332</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6077332" />
-	<updated>2021-07-19T21:30:47+00:00</updated>
-	<title>[Обновлено] Войс: Голос Умерших / Voice: Inochi Naki Mono no Koe [03 из 11] [2009, драма, медицина, UpscaleRip] [RAW] [720p] [DVO, Original + Rus Sub] [3.06 GB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084323</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084323" />
+	<updated>2021-07-22T06:32:59+00:00</updated>
+	<title>Кубок УЕФА 1984-1985 / 1/2 финала / Ответный матч / Реал Мадрид (Испания) - Интер (Италия) / Real Madrid [24.04.1985, Футбол, WEB-DL HD/1080p/25fps, TS/H.264, SPA] [4.43 GB]</title>
 	<author>
-		<name>Ieinar</name>
+		<name>leomessi00</name>
 	</author>
-	<category term="f-1939" label="Японские сериалы с озвучкой" />
+	<category term="f-1617" label="Еврокубки" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-19:/t/6083545</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083545" />
-	<updated>2021-07-19T21:04:38+00:00</updated>
-	<title>Альфа-Авто 5.1.15.15 [RUS] [200 MB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084322</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084322" />
+	<updated>2021-07-22T06:28:28+00:00</updated>
+	<title>Bellator 262: Velasquez vs. Kielholtz / Full Event [16.07.2021, MMA, HDTV 1080i, MKV/H264, RUS/ENG] [10.34 GB]</title>
 	<author>
-		<name>kautom</name>
+		<name>dean10</name>
 	</author>
-	<category term="f-1978" label="Учет, утилиты и прочее" />
+	<category term="f-257" label="Смешанные единоборства и K-1" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-19:/t/6083540</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083540" />
-	<updated>2021-07-19T21:04:05+00:00</updated>
-	<title>[ID 31477972] Проекты - VideoHive - History In Boxes [AEP] [181.5 MB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084314</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084314" />
+	<updated>2021-07-22T06:24:25+00:00</updated>
+	<title>Ратнер Вэдей - Музыка призраков [Мейлуте Ниёле, 2019, 128 kbps, MP3] [660.8 MB]</title>
 	<author>
-		<name>TRECA</name>
+		<name>affecto</name>
 	</author>
-	<category term="f-1963" label="Прочие сборники футажей" />
+	<category term="f-399" label="[Аудио] Зарубежная литература" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-19:/t/6083542</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083542" />
-	<updated>2021-07-19T21:03:56+00:00</updated>
-	<title>[ID 33088877] Проекты - VideoHive - Photo Gallery on Summer Beach [AEP] [1.24 GB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/5374515</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=5374515" />
+	<updated>2021-07-22T06:23:32+00:00</updated>
+	<title>[Обновлено] (Металл) Dark City № 91-118 [2016-2020, PDF, RUS] [2.65 GB]</title>
 	<author>
-		<name>TRECA</name>
+		<name>avrust11</name>
 	</author>
-	<category term="f-1963" label="Прочие сборники футажей" />
+	<category term="f-2349" label="Музыкальные журналы" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-19:/t/6071686</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6071686" />
-	<updated>2021-07-19T21:01:54+00:00</updated>
-	<title>[Обновлено] Рик и Морти / Rick and Morty / Сезон: 5 / Серии: 1-5 из 10 (Пит Мишелс, Брайан Ньютон, Джон Райс) [2021, США, мультфильм, комедия, фантастика, WEB-DL 1080p] VO (Сыендук) + Original (Eng) + Sub (Rus, Eng) [4.1 GB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084321</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084321" />
+	<updated>2021-07-22T06:20:44+00:00</updated>
+	<title>Постенница / Perdikaki / Περδικἀκι (Catriona Gallagher / Катриона Галлахер) [2019, Греция, Великобритания, короткий метр, энигма, флуар, WEBRip 720p] + Sub Rus + Original Eng [636.3 MB]</title>
 	<author>
-		<name>karvai</name>
+		<name>daft-digger</name>
 	</author>
-	<category term="f-921" label="Мультсериалы" />
+	<category term="f-124" label="Арт-хаус и авторское кино" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-19:/t/5971250</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=5971250" />
-	<updated>2021-07-19T21:01:52+00:00</updated>
-	<title>[Обновлено] Izumi Matsumoto / Идзуми Мацумото - Капризы Апельсиновой улицы / Kimagure Orange Road / Capricious Orange Road / Whimsical Orange Road / Orange Road [manga] [главы 1-61] [1984, комедия, романтика, сёнэн, школа, повседневность, драма, сверхъестественное] [incomplete] [357.6 MB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6075419</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6075419" />
+	<updated>2021-07-22T06:18:44+00:00</updated>
+	<title>[Обновлено] О моём перерождении в слизь (ТВ-2, часть 2) / Tensei shitara Slime Datta Ken 2nd Season [TV+Special] [01-03+1 из 12+1] [Без хардсаба] [RUS(ext), JAP+Sub] [2021, приключения, фэнтези, сёнэн, WEBRip] [720p] [2.86 GB]</title>
 	<author>
-		<name>yurivv</name>
+		<name>Странник 2.0</name>
 	</author>
-	<category term="f-281" label="Манга (на русском языке)" />
+	<category term="f-1105" label="Аниме (HD Video)" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-19:/t/6000437</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6000437" />
-	<updated>2021-07-19T20:57:30+00:00</updated>
-	<title>[Обновлено] Уокер / Walker / Сезон: 1 / Серии: 1-16 из 18 (Стив Робин, Джессика Ю, Рэндолл Зиск) [2021, США, Боевик, драма, криминал, вестерн, WEB-DLRip] MVO (NovaMedia) + Original + Sub (Rus, Eng) [13.19 GB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084320</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084320" />
+	<updated>2021-07-22T06:16:20+00:00</updated>
+	<title>(Chinese Pop) Bei La (贝拉(毕文婷)) - 2020 Digital Music Album - 2020, MP3, 320 kbps [207.3 MB]</title>
 	<author>
-		<name>lipovan60</name>
+		<name>tsarevv</name>
 	</author>
-	<category term="f-842" label="Новинки и сериалы в стадии показа" />
+	<category term="f-1331" label="Восточноазиатская поп-музыка (lossy)" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-19:/t/6080067</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6080067" />
-	<updated>2021-07-19T20:44:45+00:00</updated>
-	<title>[Обновлено] ночь на четвертом круге 1981 (Игорь Усов) [1981, Драма, VHSRip] [451.3 MB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084319</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084319" />
+	<updated>2021-07-22T06:14:10+00:00</updated>
+	<title>Renault R-Link 1065 Europe. Оригинальный образ карты 16 Gb [2021] [14.64 GB]</title>
 	<author>
-		<name>logustik</name>
+		<name>Stenly1</name>
 	</author>
-	<category term="f-941" label="Кино СССР" />
+	<category term="f-1511" label="Встроенная автомобильная навигация" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-19:/t/6083080</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083080" />
-	<updated>2021-07-19T20:42:48+00:00</updated>
-	<title>Пространство / Экспансия / The Expanse / Сезон: 1 / Серии: 1-10 из 10 (Джеймс Кори, Марк Фергус, Хоук Остби) [2015, США, Фантастика, триллер, драма, детектив, HDR10, HEVC, WEB-DL 2160p, 4K] 4x MVO (Alexfilm, Jaskier, Lostfilm, TVShows) + Original + Sub (Rus, Eng) [63.81 GB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084318</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084318" />
+	<updated>2021-07-22T06:08:12+00:00</updated>
+	<title>Renault R-Link 1065 Europe для тех, у кого есть только 8 Гб SD-карта с изменяемым CID [2021] [7.4 GB]</title>
 	<author>
-		<name>Kane_the_traytor</name>
+		<name>Stenly1</name>
 	</author>
-	<category term="f-119" label="Зарубежные сериалы (UHD Video)" />
+	<category term="f-1511" label="Встроенная автомобильная навигация" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-19:/t/6083075</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083075" />
-	<updated>2021-07-19T20:41:18+00:00</updated>
-	<title>[amd64] Debian 10 Buster 10 [72.41 GB]</title>
-	<author>
-		<name>morze1985lida</name>
-	</author>
-	<category term="f-1379" label="Операционные системы (Linux, Unix)" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-19:/t/4152001</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=4152001" />
-	<updated>2021-07-19T20:31:03+00:00</updated>
-	<title>ХХХ Летние Олимпийские Игры / Баскетбол / Мужчины / Финал / США - Испания / НТВ+ Баскетбол [12.08.2012, Баскетбол, SATRip] [1.51 GB]</title>
-	<author>
-		<name>R1CARDO</name>
-	</author>
-	<category term="f-2001" label="Международные соревнования" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-19:/t/6074707</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6074707" />
-	<updated>2021-07-19T20:30:20+00:00</updated>
-	<title>[Обновлено] Нюгордсхауг Герт - Фредрик Дрюм 02, Гренландская кукла [Кирилл Радциг, 2021, 128 kbps, MP3] [365.3 MB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084313</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084313" />
+	<updated>2021-07-22T06:07:47+00:00</updated>
+	<title>де ла Мотт Андерс - Квартет времен года 02, Осеннее преступление [Евгения Меркулова, 2021, 64 kbps, MP3] [377.1 MB]</title>
 	<author>
 		<name>kama-59</name>
 	</author>
 	<category term="f-499" label="[Аудио] Зарубежные детективы, приключения, триллеры, боевики" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-19:/t/6073308</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6073308" />
-	<updated>2021-07-19T20:29:16+00:00</updated>
-	<title>(Pop) [7&quot;] [16/44.1] Ольга Вардашева и Людмила Невзгляд - Момчета - 1977, FLAC (image+.cue) [67.8 MB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084311</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084311" />
+	<updated>2021-07-22T06:07:26+00:00</updated>
+	<title>Назимов Константин - Камарад [Сергей Хромов, 2021, 128 kbps, MP3] [608.4 MB]</title>
 	<author>
-		<name>клаccик</name>
+		<name>kama-59</name>
 	</author>
-	<category term="f-2401" label="Советская эстрада, ретро, романсы (оцифровки)" />
+	<category term="f-2387" label="[Аудио] Российская фантастика, фэнтези, мистика, ужасы, фанфики" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-19:/t/3578713</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=3578713" />
-	<updated>2021-07-19T20:28:57+00:00</updated>
-	<title>(Schlager Pop) [EP] [16/44.1] Ольга ВАРДАШЕВА Людмила НЕВЗГЛЯД - 1976, FLAC (image+.cue) [66 MB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084317</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084317" />
+	<updated>2021-07-22T06:04:30+00:00</updated>
+	<title>Soundiron - Voice of Wind: Connie 1.0 (KONTAKT) [2.7 GB]</title>
 	<author>
-		<name>Trams</name>
+		<name>vorunA2016</name>
 	</author>
-	<category term="f-2401" label="Советская эстрада, ретро, романсы (оцифровки)" />
+	<category term="f-2421" label="Библиотеки и саундбанки для сэмплеров, пресеты для синтезаторов" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-19:/t/6083541</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083541" />
-	<updated>2021-07-19T20:28:44+00:00</updated>
-	<title>Плохой доктор / Доктор Смерть / Dr. Death / Сезон: 1 / Серии: 1-8 из 8 (Ким Со-ён, Мэгги Кили, Дженнифер Моррисон) [2021, США, триллер, драма, криминал, WEBRip] MVO (HDRezka Studio) + Original [7.93 GB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084316</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084316" />
+	<updated>2021-07-22T06:01:59+00:00</updated>
+	<title>(Indie, Alternative, Electronic) The Carbonfools - Carbonsoul - 2011, MP3, 320 kbps [126.8 MB]</title>
 	<author>
-		<name>amned</name>
+		<name>foureleven</name>
 	</author>
-	<category term="f-189" label="Зарубежные сериалы" />
+	<category term="f-1743" label="Indie, Post-Rock &amp; Post-Punk (lossy)" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-19:/t/6083188</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083188" />
-	<updated>2021-07-19T20:27:58+00:00</updated>
-	<title>[Обновлено] Гедин Биргитта - Чинуша на груше [agar (ЛИ), 64 kbps, MP3] [73.3 MB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/5508529</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=5508529" />
+	<updated>2021-07-22T06:01:45+00:00</updated>
+	<title>[Обновлено] (Blues Rock) [CD] David Gogo - Collection, 13 Albums - 1994 - 2018, FLAC (tracks+.cue), lossless [4.14 GB]</title>
 	<author>
-		<name>agarevskaya</name>
+		<name>Badeny</name>
 	</author>
-	<category term="f-490" label="[Аудио] Детская литература" />
+	<category term="f-2292" label="Blues-rock (lossless)" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-19:/t/6083069</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083069" />
-	<updated>2021-07-19T20:27:15+00:00</updated>
-	<title>(Pop) [7&quot;] [24/96] Various – Мастера Зарубежной Эстрады - 1969, FLAC (image+.cue) [152.4 MB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/5983059</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=5983059" />
+	<updated>2021-07-22T06:01:40+00:00</updated>
+	<title>Соседство / The Neighborhood / Сезон: 3 / Серии: 1-18 из 18 (Виктор Гонзалез, Марк Сендроуски, Джефф Гринштейн) [2020, США, Комедия, WEB-DL 1080p] MVO (TVShows) + Original + Sub Eng [33.94 GB]</title>
 	<author>
-		<name>Aleko57</name>
+		<name>TurboSaber</name>
+	</author>
+	<category term="f-266" label="Сериалы США и Канады (HD Video)" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-22:/t/5996512</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=5996512" />
+	<updated>2021-07-22T06:01:26+00:00</updated>
+	<title>Последний настоящий мужчина / Last Man Standing / Сезон: 9 / Серии: 1-21 из 21 (Джон Паскуин, Виктор Гонзалез, Робби Кантримэн) [2021, США, Комедия, WEB-DL 1080p] MVO (TVShows) + Original + Sub (Eng) [31.6 GB]</title>
+	<author>
+		<name>TurboSaber</name>
+	</author>
+	<category term="f-266" label="Сериалы США и Канады (HD Video)" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-22:/t/6053250</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6053250" />
+	<updated>2021-07-22T06:01:08+00:00</updated>
+	<title>Внутри девятого номера / В девятом номере / Inside No. 9 / Сезон: 6 / Серии: 1-6 из 6 (Дэвид Керр / David Kerr) [2021, Великобритания, комедия, ужасы, детектив, WEBRip 720p] DVO (HamsterStudio) + Original + Sub (Rus, Eng) [4.73 GB]</title>
+	<author>
+		<name>Flying Monkey</name>
+	</author>
+	<category term="f-193" label="Сериалы Великобритании и Ирландии (HD Video)" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-22:/t/6084297</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084297" />
+	<updated>2021-07-22T05:59:32+00:00</updated>
+	<title>[Обновлено] Кабураги Харука - Перерождённый в дочь героев 5 [radvin, (ЛИ), 2020, 192 kbps, MP3] [255.8 MB]</title>
+	<author>
+		<name>radvin</name>
+	</author>
+	<category term="f-2127" label="[Аудио] Азиатская подростковая литература, ранобэ, веб-новеллы" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-22:/t/2978755</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=2978755" />
+	<updated>2021-07-22T05:52:17+00:00</updated>
+	<title>(Pop) [MB][24/44.1] Диско-шоу-группа «Новые Амазонки» - Я хочу в Австралию - 1990, APE (tracks+.cue), lossless [804 MB]</title>
+	<author>
+		<name>Yury_T</name>
+	</author>
+	<category term="f-239" label="Отечественная поп-музыка (оцифровки)" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-22:/t/6084315</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084315" />
+	<updated>2021-07-22T05:51:47+00:00</updated>
+	<title>Убийца по контракту / Убийство по контракту / Murder by Contract (Ирвинг Лернер / Irving Lerner) [1958, США, нуар, драма, криминал, триллер, BDRip-AVC] VO (Эрнест Мусин) + Original (Eng) + Sub (Rus, Eng) [2.47 GB]</title>
+	<author>
+		<name>msltel</name>
+	</author>
+	<category term="f-7" label="Зарубежное кино" />
+</entry>
+<entry>
+	<id>tag:rto.feed,2021-07-22:/t/5834111</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=5834111" />
+	<updated>2021-07-22T05:50:14+00:00</updated>
+	<title>(Pop) [MB] [24/96] Диско-7 - Дискотека в стиле RAP (вариант) - 1987, FLAC (image+.cue) [1.97 GB]</title>
+	<author>
+		<name>Часик65</name>
 	</author>
 	<category term="f-974" label="Музыка других жанров (оцифровки)" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-19:/t/6083537</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083537" />
-	<updated>2021-07-19T20:07:27+00:00</updated>
-	<title>Харлан Кобен. Невиновен / El inocente / Сезон: 1 / Серии: 1-8 из 8 (Ориол Паоло) [2021, Испания, триллер, детектив, криминал, драма, WEB-DLRip] MVO (Jaskier) [7.69 GB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/5901022</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=5901022" />
+	<updated>2021-07-22T05:46:34+00:00</updated>
+	<title>[Обновлено] Hype 4 Pro 4.1.7 [macOS] [TNT] [17.6 MB]</title>
 	<author>
-		<name>Celta88</name>
+		<name>GoAkko</name>
 	</author>
-	<category term="f-189" label="Зарубежные сериалы" />
+	<category term="f-1371" label="Программы для интернета и сетей (Mac OS)" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-19:/t/6083467</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083467" />
-	<updated>2021-07-19T20:06:36+00:00</updated>
-	<title>Рокко / Rocco (Тьерри Демезьер / Thierry Demaizière, Альбан Терле / Alban Teurlai) [2016, Франция, документальный, биография, HDRip] DVO [1.46 GB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084312</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084312" />
+	<updated>2021-07-22T05:28:54+00:00</updated>
+	<title>Lamb B. / Лэмб Б. - Wood Pallet Wonders / Чудеса из деревянных поддонов [2017, EPUB, ENG] [189.6 MB]</title>
 	<author>
-		<name>Logan.</name>
+		<name>strash83</name>
 	</author>
-	<category term="f-709" label="Документальные фильмы (Арт-хаус и авторское кино)" />
+	<category term="f-1575" label="Ремонт, частное строительство, дизайн интерьеров" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-19:/t/6002268</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6002268" />
-	<updated>2021-07-19T20:03:54+00:00</updated>
-	<title>Бэтвумен / Batwoman / Сезон: 2 / Серии: 1-6 из 18 (Холли Дэйл, Карл Ситон, Дермотт Даунс) [2021, США, Фантастика, боевик, драма, криминал, приключения, WEB-DL 1080p] Original + Sub (Eng, Rus) [12.8 GB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/5141331</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=5141331" />
+	<updated>2021-07-22T05:28:54+00:00</updated>
+	<title>Парни из Трейлерпарка / Trailer Park Boys / Сезоны: 1-12 (12) (Майкл Клаттенберг / Michael Clattenberg) [2001, Канада, комедия, криминал, DVDRip, HDRip, WEB-DL] VO (Kyberpunk) [110.91 GB]</title>
 	<author>
-		<name>Morzan</name>
+		<name>Perevodman</name>
 	</author>
-	<category term="f-1498" label="Для некондиционных раздач (HD Video)" />
+	<category term="f-195" label="Для некондиционных раздач" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-19:/t/6027397</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6027397" />
-	<updated>2021-07-19T20:03:12+00:00</updated>
-	<title>[Обновлено] Красная зона / Сезон: 1 / Серии: 1-62 из 100 (Игорь Ромащенко, Всеволод Аравин, Борис Рабей) [2021, мелодрама, драма, WEBRip]+Sub [29.76 GB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6084234</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6084234" />
+	<updated>2021-07-22T05:23:58+00:00</updated>
+	<title>911 служба спасения / 9-1-1 / Сезон: 4 / Серии: 1-14 из 14 (Брэдли Букер, Дэвид Гроссман, Дженнифер Линч) [2021, США, Боевик, триллер, драма, WEBRip 1080p] MVO (LostFilm) + MVO (FOX) + Original + Sub Eng [43.6 GB]</title>
 	<author>
-		<name>GUree</name>
+		<name>romert</name>
 	</author>
-	<category term="f-9" label="Русские сериалы" />
+	<category term="f-266" label="Сериалы США и Канады (HD Video)" />
 </entry>
 <entry>
-	<id>tag:rto.feed,2021-07-19:/t/6083538</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083538" />
-	<updated>2021-07-19T20:03:09+00:00</updated>
-	<title>UFC on ESPN 26: Makhachev vs. Moises / Full Event [17.07.2021, MMA, IPTVRip 1080p, MKV/H264, RUS] [18.9 GB]</title>
+	<id>tag:rto.feed,2021-07-22:/t/6083044</id>
+	<link href="https://rutracker.org/forum/viewtopic.php?t=6083044" />
+	<updated>2021-07-22T05:23:38+00:00</updated>
+	<title>Умысел / Спи со мной / With Intent / Lie With Me / Сезон: 1 / Серии: 1-4 из 4 (Скотт Мэйджор) [2021, Австралия, драма, HDTVRip 720p] Original + Rus Sub (Ron.Studio™) [2.12 GB]</title>
 	<author>
-		<name>Gelo B</name>
+		<name>Poppa</name>
 	</author>
-	<category term="f-257" label="Смешанные единоборства и K-1" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-19:/t/6083536</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083536" />
-	<updated>2021-07-19T20:01:50+00:00</updated>
-	<title>Красная зона / Сезон: 1 / Серии: 61-62 из 100 (Игорь Ромащенко, Всеволод Аравин, Борис Рабей) [2021, мелодрама, драма, WEBRip 1080p] [3.36 GB]</title>
-	<author>
-		<name>GUree</name>
-	</author>
-	<category term="f-9" label="Русские сериалы" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-19:/t/6083535</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083535" />
-	<updated>2021-07-19T20:01:23+00:00</updated>
-	<title>(Hard Rock / Classic Rock) [LP] [24/96] Steppenwolf - Gold (Their Great Hits) - 1970 (2020 Reissue, Remastered) (US), FLAC (tracks), lossless [902.8 MB]</title>
-	<author>
-		<name>pchard</name>
-	</author>
-	<category term="f-1756" label="Зарубежная рок-музыка (оцифровки)" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-19:/t/6083533</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083533" />
-	<updated>2021-07-19T19:58:03+00:00</updated>
-	<title>[Обновлено] [P3D] [P3D5] - Flightbeam, NZAA Auckland International Airport (Scene) [ENG] [2.56 GB]</title>
-	<author>
-		<name>Jackaroo05</name>
-	</author>
-	<category term="f-2060" label="Сценарии, меши и аэропорты для FS2004, FSX, P3D" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-19:/t/6070414</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6070414" />
-	<updated>2021-07-19T19:52:42+00:00</updated>
-	<title>[Обновлено] Любовь. Логика. Месть / Aşk Mantık İntikam / Серии: 01-05 (??) (Мурат Озтюрк / Murat Öztürk) [2021, Турция, Мелодрама, комедия, WEBRip (720p)] rus Sub [4.95 GB]</title>
-	<author>
-		<name>Ukraine50</name>
-	</author>
-	<category term="f-704" label="Сериалы Турции" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-19:/t/6083534</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083534" />
-	<updated>2021-07-19T19:52:38+00:00</updated>
-	<title>(Club, Funky, Vocal, Future House) VA - Future House Arena Vol. 4 (Andorfine 4251100514294) WEB - 2020, MP3, 320 kbps [182.5 MB]</title>
-	<author>
-		<name>DJ Neandertalino</name>
-	</author>
-	<category term="f-840" label="House (Проморелизы, сборники) (lossy)" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-19:/t/6083531</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083531" />
-	<updated>2021-07-19T19:47:43+00:00</updated>
-	<title>Некрасова Лера - Жизнь после смерти: как это было [Наталья Беляева, 2021, 128 kbps, MP3] [336.9 MB]</title>
-	<author>
-		<name>Brocken</name>
-	</author>
-	<category term="f-2165" label="[Аудио] Разное" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-19:/t/5415945</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=5415945" />
-	<updated>2021-07-19T19:44:42+00:00</updated>
-	<title>[Обновлено] Dead Cells: The Fatal Seed Bundle (24: 2021-07-08) + 2 OST [amd64] [Multi] [GOG] [Heaps] [4.47 GB]</title>
-	<author>
-		<name>Хрюнделёк</name>
-	</author>
-	<category term="f-1992" label="Нативные игры для Linux" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-19:/t/6079389</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6079389" />
-	<updated>2021-07-19T19:44:15+00:00</updated>
-	<title>[Xbox 360] Blue Dragon [ISO] [Region Free / ENG] [21.89 GB]</title>
-	<author>
-		<name>Voider</name>
-	</author>
-	<category term="f-510" label="Xbox 360" />
-</entry>
-<entry>
-	<id>tag:rto.feed,2021-07-19:/t/6083532</id>
-	<link href="https://rutracker.org/forum/viewtopic.php?t=6083532" />
-	<updated>2021-07-19T19:40:51+00:00</updated>
-	<title>Катастрофа / Колокола Силезии / Das Unheil (Петер Фляйшман / Peter Fleischmann) [1972, Западная Германия (ФРГ), комедия, фарс, WEB-DLRip] + Sub Rus + Original Deu [3.44 GB]</title>
-	<author>
-		<name>Leverkuehn</name>
-	</author>
-	<category term="f-124" label="Арт-хаус и авторское кино" />
+	<category term="f-825" label="Сериалы Австралии и Новой Зеландии (HD Video)" />
 </entry>
 </feed>

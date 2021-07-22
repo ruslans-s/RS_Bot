@@ -17,6 +17,7 @@ namespace RS_Bot
             {
                 //Добавляем к старому содержимому файла
                 writer.WriteLine(DateTime.Now + logText);
+                Console.WriteLine(DateTime.Now + logText);
             }
         }
     }

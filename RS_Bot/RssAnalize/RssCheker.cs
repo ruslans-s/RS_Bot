@@ -38,7 +38,7 @@ namespace RS_Bot.RssAnalize
             //Пути файлов
 
             //Грузим
-            wc.DownloadFile(url, nameR);
+            wc.DownloadFile(url, name);
 
             //Записываем обратно удаляе первые 6 строк
             string[] s = File.ReadAllLines(nameR);
@@ -67,7 +67,6 @@ namespace RS_Bot.RssAnalize
             string url = "http://feed.rutracker.cc/atom/f/0.atom";
             //Пути файлов
 
-            //Грузим
             wc.DownloadFile(url, name);
 
             //Записываем обратно удаляе первые 6 строк
@@ -90,7 +89,7 @@ namespace RS_Bot.RssAnalize
         }
 
 
-        public List<string> GetArrayFromFile(string names, string  oldnames)
+        public List<string> GetArrayFromFile(string names, string oldnames)
         {
 
             List<string> arrayN = new List<string>();

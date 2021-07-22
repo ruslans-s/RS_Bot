@@ -7,7 +7,6 @@ using System.IO;
 using System.Threading;
 using Telegram.Bot;
 using Telegram.Bot.Args;
-using Telegram.Bot.Types.InputFiles;
 
 namespace RS_Bot
 {
@@ -17,7 +16,7 @@ namespace RS_Bot
         private static string token;
         static TelegramBotClient client;
         private static List<Bot_command.Command> comands;
-      
+
 
         public static SqlConnection sql = null;
 
@@ -29,9 +28,11 @@ namespace RS_Bot
         static string adminChatId,
             dataBaseConnectionAdres;
 
+        static private logFilesWork log;
+
         static public void startUp()
         {
-            logFilesWork log = new logFilesWork();
+            log = new logFilesWork();
 
             Console.WriteLine("RS_bot startup...");
             log.addToLogFile("RS_bot startup...");
@@ -44,14 +45,14 @@ namespace RS_Bot
 
             sr2.Close();
 
-            
+
             sql.Open();
 
             //Команды 
             comands = new List<Bot_command.Command>();
             comands.Add(new AddC());
             comands.Add(new adminsCommand(adminChatId));
-
+            comands.Add(new list());
             if (sql.State == ConnectionState.Open)
             {
                 Console.WriteLine("Бд подключена");
@@ -77,9 +78,9 @@ namespace RS_Bot
                     //207344692
                     updateRss(cheker.GetArrayFromFile(@"rutr.txt", @"OLDrutr.txt"));
                 }
-
-                /* rutor blocked proxy mb?
-                if (cheker.chekRutor())
+                /*
+                //rutor blocked proxy mb?
+                if (cheker.chekRutor(log))
                 {
                     updateRss(cheker.GetArrayFromFile(@"rutor.txt", @"OLDrutor.txt"));
                 }*/
@@ -87,12 +88,11 @@ namespace RS_Bot
                 Thread.Sleep(60000);
 
                 //Чек инфо
-                if (count == 30)
+                if (count == 120)
                 {
                     sendMessageForAdmin("Я пишу тебе что я жив)");
                     log.addToLogFile("Я пишу тебе что я жив");
                     count = 0;
-                   
                 }
                 else
                 {
@@ -100,7 +100,7 @@ namespace RS_Bot
                 }
 
             }
-           
+
 
             client.StopReceiving();
 
@@ -121,9 +121,9 @@ namespace RS_Bot
 
             for (int i = 0; i < dataSet.Tables[0].Rows.Count; i++)
             {
-                for(int j = 0; j < arrayForOut.Count; j++)
+                for (int j = 0; j < arrayForOut.Count; j++)
                 {
-                    if(arrayForOut[j].IndexOf((string)dataSet.Tables[0].Rows[i][1]) > -1)
+                    if (arrayForOut[j].IndexOf((string)dataSet.Tables[0].Rows[i][1]) > -1)
                     {
                         Console.WriteLine((string)dataSet.Tables[0].Rows[i][1]);
                         await client.SendTextMessageAsync((string)dataSet.Tables[0].Rows[i][0], @$"Заметил одно из отслеживаемых {dataSet.Tables[0].Rows[i][1]}");
@@ -131,7 +131,7 @@ namespace RS_Bot
                 }
             }
 
-          //  await client.SendTextMessageAsync(@"207344692", "Обновился рсс");
+            //  await client.SendTextMessageAsync(@"207344692", "Обновился рсс");
         }
 
         private static async void sendMessageForAdmin(string text)
@@ -145,7 +145,7 @@ namespace RS_Bot
             var messange = e.Message;
             if (messange.Text != null)
             {
-                Console.WriteLine($"[Log]: Пришло сообщение От:{messange.From.FirstName} {messange.From.LastName} с текстом {messange.Text}");
+                log.addToLogFile($"[Log]: Пришло сообщение От:{messange.From.FirstName} {messange.From.LastName} с текстом {messange.Text}");
                 //await client.SendTextMessageAsync(messange.Chat.Id, messange.Text, replyToMessageId: messange.MessageId);
                 foreach (var comn in comands)
                 {
