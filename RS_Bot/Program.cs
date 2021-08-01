@@ -17,6 +17,7 @@ namespace RS_Bot
         static TelegramBotClient client;
         private static List<Bot_command.Command> comands;
 
+        static string botVersion = "v0.32";
 
         public static SqlConnection sql = null;
 
@@ -34,8 +35,8 @@ namespace RS_Bot
         {
             log = new logFilesWork();
 
-            Console.WriteLine("RS_bot startup...");
-            log.addToLogFile("RS_bot startup...");
+            Console.WriteLine($"RS_bot {botVersion} startup...");
+            log.addToLogFile($"RS_bot {botVersion} startup...");
 
             StreamReader sr2 = new StreamReader(@"setting.ini");
 
@@ -80,9 +81,10 @@ namespace RS_Bot
                     //207344692
                     updateRss(cheker.GetArrayFromFile(@"rutr.txt", @"OLDrutr.txt"));
                 }
+
                 /*
                 //rutor blocked proxy mb?
-                if (cheker.chekRutor(log))
+                if (cheker.chekRutor())
                 {
                     updateRss(cheker.GetArrayFromFile(@"rutor.txt", @"OLDrutor.txt"));
                 }*/
@@ -90,7 +92,7 @@ namespace RS_Bot
                 Thread.Sleep(60000);
 
                 //Чек инфо
-                if (count == 120)
+                if (count == 1440)
                 {
                     sendMessageForAdmin("Я пишу тебе что я жив)");
                     log.addToLogFile("Я пишу тебе что я жив");
@@ -128,7 +130,7 @@ namespace RS_Bot
                     if (arrayForOut[j].IndexOf((string)dataSet.Tables[0].Rows[i][1]) > -1)
                     {
                         Console.WriteLine((string)dataSet.Tables[0].Rows[i][1]);
-                        await client.SendTextMessageAsync((string)dataSet.Tables[0].Rows[i][0], @$"Заметил одно из отслеживаемых {dataSet.Tables[0].Rows[i][1]}");
+                        await client.SendTextMessageAsync((string)dataSet.Tables[0].Rows[i][0], @$"Заметил одно из отслеживаемых {dataSet.Tables[0].Rows[i][1]} Раздача {arrayForOut[j]}");
                     }
                 }
             }

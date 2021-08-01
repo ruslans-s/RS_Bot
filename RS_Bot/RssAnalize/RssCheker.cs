@@ -35,7 +35,6 @@ namespace RS_Bot.RssAnalize
             WebClient wc = new WebClient();
             //Ссылка на поток
             string url = "http://alt.rutor.info/rss.php";
-            //Пути файлов
 
             //Грузим
             wc.DownloadFile(url, name);
@@ -65,8 +64,10 @@ namespace RS_Bot.RssAnalize
             WebClient wc = new WebClient();
             //Ссылка на поток
             string url = "http://feed.rutracker.cc/atom/f/0.atom";
-            //Пути файлов
 
+            
+
+            //Загрузка файла
             wc.DownloadFile(url, name);
 
             //Записываем обратно удаляе первые 6 строк
