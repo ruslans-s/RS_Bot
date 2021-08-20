@@ -56,6 +56,7 @@ namespace RS_Bot
             comands.Add(new List());
             comands.Add(new Del());
             comands.Add(new addInfo());
+            comands.Add(new clearSw());
 
             if (sql.State == ConnectionState.Open)
             {
