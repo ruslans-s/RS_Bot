@@ -17,7 +17,7 @@ namespace RS_Bot
         static TelegramBotClient client;
         private static List<Bot_command.Command> comands;
 
-        static string botVersion = "v0.32";
+        static string botVersion = "v0.4";
 
         public static SqlConnection sql = null;
 
@@ -55,6 +55,7 @@ namespace RS_Bot
             comands.Add(new adminsCommand(adminChatId));
             comands.Add(new List());
             comands.Add(new Del());
+            comands.Add(new addInfo());
 
             if (sql.State == ConnectionState.Open)
             {
@@ -82,6 +83,12 @@ namespace RS_Bot
                     updateRss(cheker.GetArrayFromFile(@"rutr.txt", @"OLDrutr.txt"));
                 }
 
+                if (count == 60)
+                {
+                    updateScoreInfo();
+                    log.addToLogFile("Проведена проверка баллов");
+                }
+
                 /*
                 //rutor blocked proxy mb?
                 if (cheker.chekRutor())
@@ -104,7 +111,6 @@ namespace RS_Bot
                 }
 
             }
-
 
             client.StopReceiving();
 
@@ -137,6 +143,32 @@ namespace RS_Bot
 
             //  await client.SendTextMessageAsync(@"207344692", "Обновился рсс");
         }
+
+        private static async void updateScoreInfo()
+        {
+               SqlDataAdapter dataAdapter = new SqlDataAdapter(
+               "Select user_id, tracking from scoresData",
+               sql
+               );
+
+            DataSet dataSet = new DataSet();
+
+            dataAdapter.Fill(dataSet);
+
+            ScoreCheker scoreCheker = new ScoreCheker();
+
+            for (int i = 0; i < dataSet.Tables[0].Rows.Count; i++)
+            {
+                    if (scoreCheker.chekScore((string)dataSet.Tables[0].Rows[i][1], (string)dataSet.Tables[0].Rows[i][0]))
+                    {
+                        Console.WriteLine((string)dataSet.Tables[0].Rows[i][1]);
+                        await client.SendTextMessageAsync((string)dataSet.Tables[0].Rows[i][0], @$"Замечено отличие в баллах ссылка: {dataSet.Tables[0].Rows[i][1]}");
+                    }
+            }
+
+            //  await client.SendTextMessageAsync(@"207344692", "Обновился рсс");
+        }
+
 
         private static async void sendMessageForAdmin(string text)
         {
