@@ -23,10 +23,10 @@ namespace RS_Bot.Bot_command.Commands
         }
         //[scoresData]
         ///scoresData
-        static private bool getData(string id, string trak)
+        static private bool getData(string id)
         {
             SqlDataAdapter dataAdapter = new SqlDataAdapter(
-                $"Select user_id, tracking from scoresData Where user_id = N'{id}' AND tracking = N'{trak}'",
+                $"Select user_id, tracking from scoresData Where user_id = N'{id}'",
                 sql
                 );
             DataSet dataSet = new DataSet();
@@ -40,7 +40,7 @@ namespace RS_Bot.Bot_command.Commands
             string name = message.Text.Remove(0, 6);
             // await client.SendTextMessageAsync(message.Chat.Id, $"Напиши название сериала:)");
             sql = sqlN;
-            if (getData(message.Chat.Id.ToString(), name))
+            if (getData(message.Chat.Id.ToString()))
             {
                 AddNewUserId(message.Chat.Id.ToString(), name);
                 await client.SendTextMessageAsync(message.Chat.Id, $"Добавлено");
@@ -48,7 +48,7 @@ namespace RS_Bot.Bot_command.Commands
             }
             else
             {
-                await client.SendTextMessageAsync(message.Chat.Id, $"Такой запрос от такого Id уже есть в базе");
+                await client.SendTextMessageAsync(message.Chat.Id, $"Запрос от такого Id уже есть в базе");
             }
         }
 
