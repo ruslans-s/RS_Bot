@@ -51,12 +51,16 @@ namespace RS_Bot
             string file2 = GetMd5(File.ReadAllBytes(nameOld));
             if (file1 == file2)
             {
-                Console.WriteLine(DateTime.Now + " Поток не изменился");
+                Console.WriteLine(DateTime.Now + " Поток баллов не изменился");
                 return false;
+
             }
             else
             {
-                Console.WriteLine(DateTime.Now + " Поток изменился");
+                Console.WriteLine(DateTime.Now + " Поток баллов изменился");
+
+                System.IO.File.Delete(nameOld);
+                File.Move(name, nameOld);
 
                 return true;
             }

@@ -17,7 +17,7 @@ namespace RS_Bot
         static TelegramBotClient client;
         private static List<Bot_command.Command> comands;
 
-        static string botVersion = "v0.4";
+        static string botVersion = "v0.412";
 
         public static SqlConnection sql = null;
 
@@ -84,7 +84,7 @@ namespace RS_Bot
                     updateRss(cheker.GetArrayFromFile(@"rutr.txt", @"OLDrutr.txt"));
                 }
 
-                if (count == 60)
+                if (count == 60 ^ count ==0)
                 {
                     updateScoreInfo();
                     log.addToLogFile("Проведена проверка баллов");
