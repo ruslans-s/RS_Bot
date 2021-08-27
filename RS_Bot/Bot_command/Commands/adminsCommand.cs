@@ -1,11 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
 using System.IO;
-using System.Text;
 using Telegram.Bot;
 using Telegram.Bot.Types;
 using Telegram.Bot.Types.InputFiles;
+using System.Data.SQLite;
 
 namespace RS_Bot.Bot_command.Commands
 {
@@ -19,7 +17,7 @@ namespace RS_Bot.Bot_command.Commands
         }
         public override string[] Names { get; set; } = new string[] { "getlog", "Getlog" };
 
-        public override async void Execute(Message message, TelegramBotClient client, SqlConnection sql)
+        public override async void Execute(Message message, TelegramBotClient client, SQLiteConnection sql)
         {
           
             if (message.Chat.Id.ToString() == adminId)
