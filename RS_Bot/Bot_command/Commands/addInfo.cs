@@ -42,7 +42,10 @@ namespace RS_Bot.Bot_command.Commands
             {
                 AddNewUserId(message.Chat.Id.ToString(), name);
                 await client.SendTextMessageAsync(message.Chat.Id, $"Добавлено");
-                perebor_updates("reit/1", "reit/"+message.Chat.Id);
+                if(!System.IO.Directory.Exists("reit/" + message.Chat.Id))
+                {
+                    perebor_updates("reit/1", "reit/" + message.Chat.Id);
+                }                  
             }
             else
             {
