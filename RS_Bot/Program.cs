@@ -2,7 +2,8 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
-using System.Data.SqlClient;
+using System.Data.SQLite;
+
 using System.IO;
 using System.Threading;
 using Telegram.Bot;
@@ -19,7 +20,7 @@ namespace RS_Bot
 
         static string botVersion = "v0.412";
 
-        public static SqlConnection sql = null;
+        public static SQLiteConnection sql = null;
 
         static void Main(string[] args)
         {
@@ -40,8 +41,9 @@ namespace RS_Bot
 
             StreamReader sr2 = new StreamReader(@"setting.ini");
 
+            //Читаем файл настроек
             adminChatId = sr2.ReadLine();
-            sql = new SqlConnection(sr2.ReadLine());
+            sql = new SQLiteConnection(sr2.ReadLine());
             token = sr2.ReadLine();
 
             sr2.Close();
@@ -121,7 +123,7 @@ namespace RS_Bot
         {
             List<string> arrayForOut = list;
 
-            SqlDataAdapter dataAdapter = new SqlDataAdapter(
+            SQLiteDataAdapter dataAdapter = new SQLiteDataAdapter(
                "Select user_id, tracking from UserData",
                sql
                );
@@ -147,7 +149,7 @@ namespace RS_Bot
 
         private static async void updateScoreInfo()
         {
-               SqlDataAdapter dataAdapter = new SqlDataAdapter(
+            SQLiteDataAdapter dataAdapter = new SQLiteDataAdapter(
                "Select user_id, tracking from scoresData",
                sql
                );

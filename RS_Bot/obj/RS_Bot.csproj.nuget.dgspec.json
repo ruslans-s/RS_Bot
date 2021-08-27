@@ -40,13 +40,9 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
-            "NDbUnit.SqlLite": {
+            "System.Data.SQLite": {
               "target": "Package",
-              "version": "[1.6.8, )"
-            },
-            "System.Data.SqlClient": {
-              "target": "Package",
-              "version": "[4.8.2, )"
+              "version": "[1.0.115, )"
             },
             "Telegram.Bot": {
               "target": "Package",

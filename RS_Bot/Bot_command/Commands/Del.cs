@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data;
-using System.Data.SqlClient;
-using System.Text;
 using Telegram.Bot;
 using Telegram.Bot.Types;
+using System.Data.SQLite;
 
 namespace RS_Bot.Bot_command.Commands
 {
@@ -13,10 +11,10 @@ namespace RS_Bot.Bot_command.Commands
     {
         public override string[] Names { get; set; } = new string[] { "del" };
 
-        public override async void Execute(Message message, TelegramBotClient client, SqlConnection sql)
+        public override async void Execute(Message message, TelegramBotClient client, SQLiteConnection sql)
         {
-            SqlDataAdapter dataAdapter = new SqlDataAdapter(
-             $"Select user_id, tracking from UserData Where user_id = N'{message.Chat.Id.ToString()}' AND tracking = N'{message.Text.ToString().Remove(0, 4)}'",
+            SQLiteDataAdapter dataAdapter = new SQLiteDataAdapter(
+             $"Select user_id, tracking from UserData Where user_id = '{message.Chat.Id.ToString()}' AND tracking = '{message.Text.ToString().Remove(0, 4)}'",
              sql
              );
             DataSet dataSet = new DataSet();
@@ -30,10 +28,10 @@ namespace RS_Bot.Bot_command.Commands
                 await client.SendTextMessageAsync(message.Chat.Id, $"№{i}: " + dataSet.Tables[0].Rows[i][1]);
             }
 
-            SqlCommand command = new SqlCommand(
-                $"Delete from [UserData] from UserData Where user_id = N'{message.Chat.Id.ToString()}' AND tracking = N'{message.Text.ToString().Remove(0,4)}'",
+            SQLiteCommand command = new SQLiteCommand(
+                $"Delete from [UserData] from UserData Where user_id = '{message.Chat.Id.ToString()}' AND tracking = N'{message.Text.ToString().Remove(0,4)}'",
                 sql);
-            
+
             Console.WriteLine(command.ExecuteNonQuery().ToString());
 
         }

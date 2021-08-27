@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
-using System.Text;
+﻿using System.Data.SQLite;
 using Telegram.Bot;
 using Telegram.Bot.Types;
 
@@ -11,7 +8,7 @@ namespace RS_Bot.Bot_command
     {
         public abstract string[] Names { get; set; }
 
-        public abstract void Execute(Message message, TelegramBotClient client, SqlConnection sql);
+        public abstract void Execute(Message message, TelegramBotClient client, SQLiteConnection sql);
 
         public bool Contains(string message)
         {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
-using System.Data.SqlClient;
+using System.Data.SQLite;
 using System.Text;
 using Telegram.Bot;
 using Telegram.Bot.Types;
@@ -12,10 +12,10 @@ namespace RS_Bot.Bot_command.Commands
     {
         public override string[] Names { get; set; } = new string[] { "list", "List" };
 
-        public override async void Execute(Message message, TelegramBotClient client, SqlConnection sql)
+        public override async void Execute(Message message, TelegramBotClient client, SQLiteConnection sql)
         {
-            SqlDataAdapter dataAdapter = new SqlDataAdapter(
-               $"Select user_id, tracking from UserData Where user_id = N'{message.Chat.Id.ToString()}'",
+            SQLiteDataAdapter dataAdapter = new SQLiteDataAdapter(
+               $"Select user_id, tracking from UserData Where user_id = '{message.Chat.Id.ToString()}'",
                sql
                );
             DataSet dataSet = new DataSet();
