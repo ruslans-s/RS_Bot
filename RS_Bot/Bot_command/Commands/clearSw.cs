@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
-using System.Data.SqlClient;
+using System.Data.SQLite;
 using System.Text;
 using Telegram.Bot;
 using Telegram.Bot.Types;
@@ -12,9 +12,9 @@ namespace RS_Bot.Bot_command.Commands
     {
         public override string[] Names { get; set; } = new string[] { "clearsw" };
 
-        public override async void Execute(Message message, TelegramBotClient client, SqlConnection sql)
+        public override async void Execute(Message message, TelegramBotClient client, SQLiteConnection sql)
         {
-            SqlDataAdapter dataAdapter = new SqlDataAdapter(
+            SQLiteDataAdapter dataAdapter = new SQLiteDataAdapter(
              $"Select user_id, tracking from scoresData Where user_id = N'{message.Chat.Id.ToString()}'",
              sql
              );
@@ -29,7 +29,7 @@ namespace RS_Bot.Bot_command.Commands
                 await client.SendTextMessageAsync(message.Chat.Id, $"№{i}: " + dataSet.Tables[0].Rows[i][1]);
             }
 
-            SqlCommand command = new SqlCommand(
+            SQLiteCommand command = new SQLiteCommand(
                 $"Delete from [scoresData] from scoresData Where user_id = N'{message.Chat.Id.ToString()}'",
                 sql);
 
