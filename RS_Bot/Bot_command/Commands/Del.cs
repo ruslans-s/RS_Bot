@@ -29,7 +29,7 @@ namespace RS_Bot.Bot_command.Commands
             }
 
             SQLiteCommand command = new SQLiteCommand(
-                $"Delete from [UserData] from UserData Where user_id = '{message.Chat.Id.ToString()}' AND tracking = N'{message.Text.ToString().Remove(0,4)}'",
+                $"Delete from UserData Where user_id = '{message.Chat.Id.ToString()}' AND tracking = '{message.Text.ToString().Remove(0,4)}'",
                 sql);
 
             Console.WriteLine(command.ExecuteNonQuery().ToString());
