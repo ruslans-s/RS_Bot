@@ -21,10 +21,20 @@ namespace RS_Bot.Bot_command.Commands
             DataSet dataSet = new DataSet();
 
             dataAdapter.Fill(dataSet);
-            for (int i = 0; i < dataSet.Tables[0].Rows.Count; i++)
+
+            //Если база пуста написать 
+            if (dataSet.Tables[0].Rows.Count > 0)
             {
-                await client.SendTextMessageAsync(message.Chat.Id, $"№{i}: "+ dataSet.Tables[0].Rows[i][1]);
+                for (int i = 0; i < dataSet.Tables[0].Rows.Count; i++)
+                {
+                    await client.SendTextMessageAsync(message.Chat.Id, $"№{i}: " + dataSet.Tables[0].Rows[i][1]);
+                }
             }
+            else
+            {
+                await client.SendTextMessageAsync(message.Chat.Id, "Записы в базе не обнаружены");
+            }
+
         //    return (dataSet.Tables[0].Rows.Count == 0);
         }
     }
