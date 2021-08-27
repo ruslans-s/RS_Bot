@@ -129,10 +129,12 @@ namespace RS_Bot.RssAnalize
                     }
                     if (j == (arrayO.Count - 1))
                     {
-                        //
+                        //Обработка
                         line = Regex.Replace(arrayN[i], @"\[.*?\]", "");
                         line = Regex.Replace(line, @"\(.*?\)", "");
                         line = Regex.Replace(line, @"\<.*?\>", "").Trim();
+                        line = line.ToLower();
+
                         arrayForOut.Add(line);
                         Console.WriteLine(line);
                     }
