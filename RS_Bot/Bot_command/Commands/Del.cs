@@ -14,7 +14,7 @@ namespace RS_Bot.Bot_command.Commands
         public override async void Execute(Message message, TelegramBotClient client, SQLiteConnection sql)
         {
             SQLiteDataAdapter dataAdapter = new SQLiteDataAdapter(
-             $"Select user_id, tracking from UserData Where user_id = N'{message.Chat.Id.ToString()}' AND tracking = N'{message.Text.ToString().Remove(0, 4)}'",
+             $"Select user_id, tracking from UserData Where user_id = '{message.Chat.Id.ToString()}' AND tracking = '{message.Text.ToString().Remove(0, 4)}'",
              sql
              );
             DataSet dataSet = new DataSet();
@@ -29,7 +29,7 @@ namespace RS_Bot.Bot_command.Commands
             }
 
             SQLiteCommand command = new SQLiteCommand(
-                $"Delete from [UserData] from UserData Where user_id = N'{message.Chat.Id.ToString()}' AND tracking = N'{message.Text.ToString().Remove(0,4)}'",
+                $"Delete from [UserData] from UserData Where user_id = '{message.Chat.Id.ToString()}' AND tracking = N'{message.Text.ToString().Remove(0,4)}'",
                 sql);
 
             Console.WriteLine(command.ExecuteNonQuery().ToString());

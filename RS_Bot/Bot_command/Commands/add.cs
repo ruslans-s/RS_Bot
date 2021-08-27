@@ -11,13 +11,13 @@ namespace RS_Bot.Bot_command.Commands
 {
     class AddC : Command
     {
-        static SqlConnection sql = null;
+        static SQLiteConnection sql = null;
         public override string[] Names { get; set; } = new string[] { "add" };
 
         static private void AddNewUserId(string id, string trak)
         {
-            SqlCommand command = new SqlCommand(
-                $"insert into [UserData] (user_id, tracking) values (N'{id}', N'{trak}')",
+            SQLiteCommand command = new SQLiteCommand(
+                $"insert into [UserData] (user_id, tracking) values ('{id}', '{trak}')",
                 sql);
             Console.WriteLine(command.ExecuteNonQuery().ToString());
         }
@@ -25,8 +25,8 @@ namespace RS_Bot.Bot_command.Commands
      
         static private bool getData(string id,string trak)
         {
-            SqlDataAdapter dataAdapter = new SqlDataAdapter(
-                $"Select user_id, tracking from UserData Where user_id = N'{id}' AND tracking = N'{trak}'",
+            SQLiteDataAdapter dataAdapter = new SQLiteDataAdapter(
+                $"Select user_id, tracking from UserData Where user_id = '{id}' AND tracking = '{trak}'",
                 sql
                 );
             DataSet dataSet = new DataSet();
@@ -37,7 +37,7 @@ namespace RS_Bot.Bot_command.Commands
 
        
 
-        public override async void Execute(Message message, TelegramBotClient client, SqlConnection sqlN)
+        public override async void Execute(Message message, TelegramBotClient client, SQLiteConnection sqlN)
         {
             string name = message.Text.Remove(0,4);
            // await client.SendTextMessageAsync(message.Chat.Id, $"Напиши название сериала:)");

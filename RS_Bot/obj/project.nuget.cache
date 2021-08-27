@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XIqexaNZn6+W8dY7LGxasaSmvgIhfvmNlM8wkY/Yi+7k588QUZ1K1fqjHF0KAxSh5NwjVK6kQgEJbjEKB95KIw==",
+  "dgSpecHash": "fiRLSpsCvjq/IwS63GzaS3FzeXOlX0QjBSNo61THeFxl4bqlS0TXvTFj1Iuqd3JyjgupGY+GxeCKhe/LGRKejg==",
   "success": true,
   "projectFilePath": "D:\\repos\\RS_Bot\\RS_Bot\\RS_Bot.csproj",
   "expectedPackageFiles": [
@@ -42,7 +42,7 @@
     "C:\\Users\\sadik\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "C:\\Users\\sadik\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",
     "C:\\Users\\sadik\\.nuget\\packages\\system.console\\4.3.0\\system.console.4.3.0.nupkg.sha512",
-    "C:\\Users\\sadik\\.nuget\\packages\\system.data.sqlclient\\4.8.2\\system.data.sqlclient.4.8.2.nupkg.sha512",
+    "C:\\Users\\sadik\\.nuget\\packages\\system.data.sqlclient\\4.8.1\\system.data.sqlclient.4.8.1.nupkg.sha512",
     "C:\\Users\\sadik\\.nuget\\packages\\system.data.sqlite\\1.0.115\\system.data.sqlite.1.0.115.nupkg.sha512",
     "C:\\Users\\sadik\\.nuget\\packages\\system.data.sqlite.core\\1.0.115\\system.data.sqlite.core.1.0.115.nupkg.sha512",
     "C:\\Users\\sadik\\.nuget\\packages\\system.data.sqlite.ef6\\1.0.115\\system.data.sqlite.ef6.1.0.115.nupkg.sha512",

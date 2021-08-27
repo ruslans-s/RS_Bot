@@ -15,7 +15,7 @@ namespace RS_Bot.Bot_command.Commands
         static private void AddNewUserId(string id, string trak)
         {
             SQLiteCommand command = new SQLiteCommand(
-                $"insert into [scoresData] (user_id, tracking) values (N'{id}', N'{trak}')",
+                $"insert into [scoresData] (user_id, tracking) values ('{id}', '{trak}')",
                 sql);
             Console.WriteLine(command.ExecuteNonQuery().ToString());
         }
@@ -24,7 +24,7 @@ namespace RS_Bot.Bot_command.Commands
         static private bool getData(string id)
         {
             SQLiteDataAdapter dataAdapter = new SQLiteDataAdapter(
-                $"Select user_id, tracking from scoresData Where user_id = N'{id}'",
+                $"Select user_id, tracking from scoresData Where user_id = '{id}'",
                 sql
                 );
             DataSet dataSet = new DataSet();
