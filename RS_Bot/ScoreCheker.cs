@@ -40,6 +40,19 @@ namespace RS_Bot
             //Грузим
             wc.DownloadFile(url, name);
 
+            //Если сервак лег
+            using (var f = File.OpenText(name))
+            {
+                while (!f.EndOfStream)
+                {
+                    var line = f.ReadLine();
+                    if(line.IndexOf("error.php") != -1)
+                    {
+                        return false;
+                    }
+                }
+            }
+
             /*
             //Записываем обратно удаляе первые 6 строк
             string[] s = File.ReadAllLines(name);
