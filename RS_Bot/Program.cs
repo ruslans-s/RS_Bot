@@ -30,7 +30,7 @@ namespace RS_Bot
         static string adminChatId,
             dataBaseConnectionAdres;
 
-        static private logFilesWork log;
+        static public logFilesWork log;
 
         static public void startUp()
         {
@@ -87,6 +87,7 @@ namespace RS_Bot
 
             while (true)
             {
+
                 log.addToLogFile("Проводится проверка RSS");
                 if (cheker.chekRutracker())
                 {
@@ -94,12 +95,15 @@ namespace RS_Bot
                     updateRss(cheker.GetArrayFromFile(@"rutr.txt", @"OLDrutr.txt"));
                 }
 
-                if (count == 60 ^ count ==0)
+                if (count == 60 ^ count == 0)
                 {
                     log.addToLogFile("Начало проверки баллов");
+
                     updateScoreInfo();
+
                     log.addToLogFile("Проведена проверка баллов");
                 }
+
 
                 /*
                 //rutor blocked proxy mb?
@@ -132,25 +136,33 @@ namespace RS_Bot
         {
             List<string> arrayForOut = list;
 
-            SQLiteDataAdapter dataAdapter = new SQLiteDataAdapter(
-               "Select user_id, tracking from UserData",
-               sql
-               );
-
-            DataSet dataSet = new DataSet();
-
-            dataAdapter.Fill(dataSet);
-
-            for (int i = 0; i < dataSet.Tables[0].Rows.Count; i++)
+            try
             {
-                for (int j = 0; j < arrayForOut.Count; j++)
+                SQLiteDataAdapter dataAdapter = new SQLiteDataAdapter(
+                   "Select user_id, tracking from UserData",
+                   sql
+                   );
+
+                DataSet dataSet = new DataSet();
+
+                dataAdapter.Fill(dataSet);
+
+                for (int i = 0; i < dataSet.Tables[0].Rows.Count; i++)
                 {
-                    if (arrayForOut[j].IndexOf((string)dataSet.Tables[0].Rows[i][1]) > -1)
+                    for (int j = 0; j < arrayForOut.Count; j++)
                     {
-                        Console.WriteLine((string)dataSet.Tables[0].Rows[i][1]);
-                        await client.SendTextMessageAsync((string)dataSet.Tables[0].Rows[i][0], @$"Заметил одно из отслеживаемых {dataSet.Tables[0].Rows[i][1]} Раздача {arrayForOut[j]}");
+                        if (arrayForOut[j].IndexOf((string)dataSet.Tables[0].Rows[i][1]) > -1)
+                        {
+                            Console.WriteLine((string)dataSet.Tables[0].Rows[i][1]);
+                            await client.SendTextMessageAsync((string)dataSet.Tables[0].Rows[i][0], @$"Заметил одно из отслеживаемых {dataSet.Tables[0].Rows[i][1]} Раздача {arrayForOut[j]}");
+                        }
                     }
                 }
+            }
+            catch (Exception err)
+            {
+                sendMessageForAdmin("Ошибка! В обновлений RSS");
+                log.addToLogFile("Ошибка!! " + err.ToString());
             }
 
             //  await client.SendTextMessageAsync(@"207344692", "Обновился рсс");
@@ -158,24 +170,32 @@ namespace RS_Bot
 
         private static async void updateScoreInfo()
         {
-            SQLiteDataAdapter dataAdapter = new SQLiteDataAdapter(
+            try
+            {
+                SQLiteDataAdapter dataAdapter = new SQLiteDataAdapter(
                "Select user_id, tracking from scoresData",
                sql
                );
 
-            DataSet dataSet = new DataSet();
+                DataSet dataSet = new DataSet();
 
-            dataAdapter.Fill(dataSet);
 
-            ScoreCheker scoreCheker = new ScoreCheker();
+                dataAdapter.Fill(dataSet);
+                ScoreCheker scoreCheker = new ScoreCheker();
 
-            for (int i = 0; i < dataSet.Tables[0].Rows.Count; i++)
-            {
+                for (int i = 0; i < dataSet.Tables[0].Rows.Count; i++)
+                {
                     if (scoreCheker.chekScore((string)dataSet.Tables[0].Rows[i][1], (string)dataSet.Tables[0].Rows[i][0]))
                     {
                         Console.WriteLine((string)dataSet.Tables[0].Rows[i][1]);
                         await client.SendTextMessageAsync((string)dataSet.Tables[0].Rows[i][0], @$"Замечено отличие в баллах ссылка: {dataSet.Tables[0].Rows[i][1]}");
                     }
+                }
+            }
+            catch (Exception err)
+            {
+                sendMessageForAdmin("Ошибка! В обновлений баллов");
+                log.addToLogFile("Ошибка!! "+err.ToString());
             }
 
             //  await client.SendTextMessageAsync(@"207344692", "Обновился рсс");
@@ -191,18 +211,27 @@ namespace RS_Bot
         {
 
             var messange = e.Message;
-            if (messange.Text != null)
+            try
             {
-                log.addToLogFile($"[Log]: Пришло сообщение От:{messange.From.FirstName} {messange.From.LastName} с текстом {messange.Text}");
-                //await client.SendTextMessageAsync(messange.Chat.Id, messange.Text, replyToMessageId: messange.MessageId);
-                foreach (var comn in comands)
+                if (messange.Text != null)
                 {
-                    if (comn.Contains(messange.Text))
+                    log.addToLogFile($"[Log]: Пришло сообщение От:{messange.From.FirstName} {messange.From.LastName} с текстом {messange.Text}");
+                    //await client.SendTextMessageAsync(messange.Chat.Id, messange.Text, replyToMessageId: messange.MessageId);
+                    foreach (var comn in comands)
                     {
-                        comn.Execute(messange, client, sql);
+                        if (comn.Contains(messange.Text))
+                        {
+                            comn.Execute(messange, client, sql);
+                        }
                     }
                 }
             }
+            catch (Exception err)
+            {
+                Console.WriteLine(err);
+                throw;
+            }
+
         }
     }
 }
