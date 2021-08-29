@@ -18,7 +18,7 @@ namespace RS_Bot
         static TelegramBotClient client;
         private static List<Bot_command.Command> comands;
 
-        static string botVersion = "v0.42";
+        static string botVersion = "v0.421";
 
         public static SQLiteConnection sql = null;
 
@@ -39,18 +39,27 @@ namespace RS_Bot
             Console.WriteLine($"RS_bot {botVersion} startup...");
             log.addToLogFile($"RS_bot {botVersion} startup...");
 
-            StreamReader sr2 = new StreamReader(@"setting.ini");
+            log.addToLogFile("Чтение файла настроек");
 
+            StreamReader sr2 = new StreamReader(@"setting.ini");
             //Читаем файл настроек
             adminChatId = sr2.ReadLine();
             sql = new SQLiteConnection(sr2.ReadLine());
             token = sr2.ReadLine();
 
             sr2.Close();
+            log.addToLogFile("Файл настроек прочитан");
 
-
+            log.addToLogFile("Открываем БД");
             sql.Open();
 
+            if (sql.State == ConnectionState.Open)
+            {
+                Console.WriteLine("Бд подключена");
+                log.addToLogFile("Бд подключена");
+            }
+
+            log.addToLogFile("Инцилизация команд");
             //Команды 
             comands = new List<Bot_command.Command>();
             comands.Add(new AddC());
@@ -60,11 +69,7 @@ namespace RS_Bot
             comands.Add(new addInfo());
             comands.Add(new clearSw());
 
-            if (sql.State == ConnectionState.Open)
-            {
-                Console.WriteLine("Бд подключена");
-                log.addToLogFile("Бд подключена");
-            }
+            log.addToLogFile("Соединение с ботом");
 
             client = new TelegramBotClient(token);
 
@@ -78,16 +83,20 @@ namespace RS_Bot
 
             sendMessageForAdmin("Bot_start");
 
+            log.addToLogFile("Бот запущен вход в цикл");
+
             while (true)
             {
+                log.addToLogFile("Проводится проверка RSS");
                 if (cheker.chekRutracker())
                 {
-                    //207344692
+                    //207344692                  
                     updateRss(cheker.GetArrayFromFile(@"rutr.txt", @"OLDrutr.txt"));
                 }
 
                 if (count == 60 ^ count ==0)
                 {
+                    log.addToLogFile("Начало проверки баллов");
                     updateScoreInfo();
                     log.addToLogFile("Проведена проверка баллов");
                 }

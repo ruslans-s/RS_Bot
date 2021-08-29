@@ -21,7 +21,6 @@ D:\repos\RS_Bot\RS_Bot\obj\Debug\netcoreapp3.1\RS_Bot.pdb
 D:\repos\RS_Bot\RS_Bot\obj\Debug\netcoreapp3.1\RS_Bot.genruntimeconfig.cache
 D:\repos\RS_Bot\RS_Bot\bin\Debug\netcoreapp3.1\Settings.job
 D:\repos\RS_Bot\RS_Bot\obj\Debug\netcoreapp3.1\RS_Bot.csprojAssemblyReference.cache
-D:\repos\RS_Bot\RS_Bot\bin\Debug\netcoreapp3.1\RSDataBase.db
 D:\repos\RS_Bot\RS_Bot\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
 D:\repos\RS_Bot\RS_Bot\bin\Debug\netcoreapp3.1\EntityFramework.dll
 D:\repos\RS_Bot\RS_Bot\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
