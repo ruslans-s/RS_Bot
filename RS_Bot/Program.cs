@@ -95,7 +95,7 @@ namespace RS_Bot
                     updateRss(cheker.GetArrayFromFile(@"rutr.txt", @"OLDrutr.txt"));
                 }
 
-                if (count == 60 ^ count == 0)
+                if (count % 60 == 0)
                 {
                     log.addToLogFile("Начало проверки баллов");
 

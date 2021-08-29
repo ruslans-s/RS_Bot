@@ -1,6 +1,5 @@
 C:\Users\sadik\Desktop\Новая папка (2)\Settings.job
 C:\Users\sadik\Desktop\Новая папка (2)\RS_Bot.exe
-C:\Users\sadik\Desktop\Новая папка (2)\RSDataBase.db
 C:\Users\sadik\Desktop\Новая папка (2)\RS_Bot.dll
 C:\Users\sadik\Desktop\Новая папка (2)\RS_Bot.deps.json
 C:\Users\sadik\Desktop\Новая папка (2)\RS_Bot.runtimeconfig.json
