@@ -172,8 +172,11 @@ namespace RS_Bot
         {
             try
             {
+
+                //[NewScoresData] (user_id, login, password, tracking )
+
                 SQLiteDataAdapter dataAdapter = new SQLiteDataAdapter(
-               "Select user_id, tracking from scoresData",
+               "Select user_id, login, password, tracking from NewScoresData",
                sql
                );
 
