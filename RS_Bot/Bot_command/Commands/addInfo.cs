@@ -41,7 +41,7 @@ namespace RS_Bot.Bot_command.Commands
             */
 
             SQLiteCommand command = new SQLiteCommand(
-                $"insert into [NewScoresData] (user_id, login, password, tracking ) values ('{id}', '{traks[0]}' , '{trak[1]}' , '{trak[2]}')",
+                $"insert into [NewScoresData] (user_id, login, password, tracking ) values ('{id}', '{traks[0]}' , '{traks[1]}' , '{traks[2]}')",
                 sql);
             Console.WriteLine(command.ExecuteNonQuery().ToString());
         }

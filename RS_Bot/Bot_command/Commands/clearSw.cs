@@ -26,9 +26,8 @@ namespace RS_Bot.Bot_command.Commands
 
             for (int i = 0; i < dataSet.Tables[0].Rows.Count; i++)
             {
-                await client.SendTextMessageAsync(message.Chat.Id, $"№{i}: " + dataSet.Tables[0].Rows[i][1]);
+                await client.SendTextMessageAsync(message.Chat.Id, $"№{i}: " + dataSet.Tables[0].Rows[i][1] + dataSet.Tables[0].Rows[i][2] + dataSet.Tables[0].Rows[i][3]);
             }
-
             SQLiteCommand command = new SQLiteCommand(
                 $"Delete from NewScoresData Where user_id = '{message.Chat.Id.ToString()}'",
                 sql);

@@ -188,7 +188,7 @@ namespace RS_Bot
 
                 for (int i = 0; i < dataSet.Tables[0].Rows.Count; i++)
                 {
-                    if (scoreCheker.chekScore((string)dataSet.Tables[0].Rows[i][1], (string)dataSet.Tables[0].Rows[i][0]))
+                    if (scoreCheker.chekScore((string)dataSet.Tables[0].Rows[i][0], (string)dataSet.Tables[0].Rows[i][1], (string)dataSet.Tables[0].Rows[i][2], (string)dataSet.Tables[0].Rows[i][3]))
                     {
                         Console.WriteLine((string)dataSet.Tables[0].Rows[i][1]);
                         await client.SendTextMessageAsync((string)dataSet.Tables[0].Rows[i][0], @$"Замечено отличие в баллах ссылка: {dataSet.Tables[0].Rows[i][1]}");
