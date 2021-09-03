@@ -15,7 +15,7 @@ namespace RS_Bot.Bot_command.Commands
         {
             adminId = setAdminsId;
         }
-        public override string[] Names { get; set; } = new string[] { "getlog", "Getlog" };
+        public override string[] Names { get; set; } = new string[] { "/getlog", "/Getlog" };
 
         public override async void Execute(Message message, TelegramBotClient client, SQLiteConnection sql)
         {

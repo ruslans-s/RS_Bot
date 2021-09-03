@@ -10,12 +10,12 @@ namespace RS_Bot.Bot_command.Commands
 {
     class clearSw : Command
     {
-        public override string[] Names { get; set; } = new string[] { "clearsw" };
+        public override string[] Names { get; set; } = new string[] { "/clearsw" };
 
         public override async void Execute(Message message, TelegramBotClient client, SQLiteConnection sql)
         {
             SQLiteDataAdapter dataAdapter = new SQLiteDataAdapter(
-             $"Select user_id, tracking from scoresData Where user_id = '{message.Chat.Id.ToString()}'",
+             $"Select user_id, login, password, tracking from NewScoresData Where user_id = '{message.Chat.Id.ToString()}'",
              sql
              );
             DataSet dataSet = new DataSet();
@@ -30,7 +30,7 @@ namespace RS_Bot.Bot_command.Commands
             }
 
             SQLiteCommand command = new SQLiteCommand(
-                $"Delete from scoresData Where user_id = '{message.Chat.Id.ToString()}'",
+                $"Delete from NewScoresData Where user_id = '{message.Chat.Id.ToString()}'",
                 sql);
 
             Console.WriteLine(command.ExecuteNonQuery().ToString());

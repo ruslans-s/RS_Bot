@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Data.SQLite;
 using System.IO;
@@ -11,11 +12,36 @@ namespace RS_Bot.Bot_command.Commands
     {
         static SQLiteConnection sql = null;
 
-        public override string[] Names { get; set; } = new string[] { "infosw" };
+        public override string[] Names { get; set; } = new string[] { "/infosw" };
         static private void AddNewUserId(string id, string trak)
         {
+            List<string> traks = new List<string>();
+
+            traks.Add("");
+            for(int i = 1; i < trak.Length; i++)
+            {
+                if(trak[i]!=' ')
+                {
+                    traks[traks.Count - 1] += trak[i];
+                } else
+                {
+                    traks.Add("");
+                }
+            }
+
+            /*
+             CREATE TABLE "NewScoresData" (
+	"Id"	INTEGER NOT NULL,
+	"user_id"	TEXT NOT NULL,
+	"login"	TEXT NOT NULL,
+	"password"	TEXT NOT NULL,
+	"tracking"	TEXT NOT NULL,
+	PRIMARY KEY("Id" AUTOINCREMENT)
+)
+            */
+
             SQLiteCommand command = new SQLiteCommand(
-                $"insert into [scoresData] (user_id, tracking) values ('{id}', '{trak}')",
+                $"insert into [NewScoresData] (user_id, login, password, tracking ) values ('{id}', '{traks[0]}' , '{trak[1]}' , '{trak[2]}')",
                 sql);
             Console.WriteLine(command.ExecuteNonQuery().ToString());
         }
@@ -24,7 +50,7 @@ namespace RS_Bot.Bot_command.Commands
         static private bool getData(string id)
         {
             SQLiteDataAdapter dataAdapter = new SQLiteDataAdapter(
-                $"Select user_id, tracking from scoresData Where user_id = '{id}'",
+                $"Select user_id, tracking from NewScoresData Where user_id = '{id}'",
                 sql
                 );
             DataSet dataSet = new DataSet();
@@ -35,7 +61,7 @@ namespace RS_Bot.Bot_command.Commands
 
         public override async void Execute(Message message, TelegramBotClient client, SQLiteConnection sqlN)
         {
-            string name = message.Text.Remove(0, 6);
+            string name = message.Text.Remove(0, 7);
             // await client.SendTextMessageAsync(message.Chat.Id, $"Напиши название сериала:)");
             sql = sqlN;
             if (getData(message.Chat.Id.ToString()))

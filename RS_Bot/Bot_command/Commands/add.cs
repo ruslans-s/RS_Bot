@@ -12,7 +12,7 @@ namespace RS_Bot.Bot_command.Commands
     class AddC : Command
     {
         static SQLiteConnection sql = null;
-        public override string[] Names { get; set; } = new string[] { "add" };
+        public override string[] Names { get; set; } = new string[] { "/add" };
 
         static private void AddNewUserId(string id, string trak)
         {
@@ -40,7 +40,7 @@ namespace RS_Bot.Bot_command.Commands
         public override async void Execute(Message message, TelegramBotClient client, SQLiteConnection sqlN)
         {
             //Удаляем команду и приводим к нижнему регистру
-            string name = message.Text.Remove(0,4).ToLower();
+            string name = message.Text.Remove(0,5).ToLower();
 
            // await client.SendTextMessageAsync(message.Chat.Id, $"Напиши название сериала:)");
             sql = sqlN;

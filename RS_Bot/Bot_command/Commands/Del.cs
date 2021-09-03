@@ -9,12 +9,12 @@ namespace RS_Bot.Bot_command.Commands
 
     class Del : Command
     {
-        public override string[] Names { get; set; } = new string[] { "del" };
+        public override string[] Names { get; set; } = new string[] { "/del" };
 
         public override async void Execute(Message message, TelegramBotClient client, SQLiteConnection sql)
         {
             SQLiteDataAdapter dataAdapter = new SQLiteDataAdapter(
-             $"Select user_id, tracking from UserData Where user_id = '{message.Chat.Id.ToString()}' AND tracking = '{message.Text.ToString().Remove(0, 4)}'",
+             $"Select user_id, tracking from UserData Where user_id = '{message.Chat.Id.ToString()}' AND tracking = '{message.Text.ToString().Remove(0, 5)}'",
              sql
              );
             DataSet dataSet = new DataSet();
