@@ -8,6 +8,7 @@ using System.IO;
 using System.Threading;
 using Telegram.Bot;
 using Telegram.Bot.Args;
+using Telegram.Bot.Types.InputFiles;
 
 namespace RS_Bot
 {
@@ -172,7 +173,7 @@ namespace RS_Bot
         {
             try
             {
-
+                
                 //[NewScoresData] (user_id, login, password, tracking )
 
                 SQLiteDataAdapter dataAdapter = new SQLiteDataAdapter(
@@ -191,7 +192,18 @@ namespace RS_Bot
                     if (scoreCheker.chekScore((string)dataSet.Tables[0].Rows[i][0], (string)dataSet.Tables[0].Rows[i][1], (string)dataSet.Tables[0].Rows[i][2], (string)dataSet.Tables[0].Rows[i][3]))
                     {
                         Console.WriteLine((string)dataSet.Tables[0].Rows[i][1]);
-                        await client.SendTextMessageAsync((string)dataSet.Tables[0].Rows[i][0], @$"Замечено отличие в баллах ссылка: {dataSet.Tables[0].Rows[i][1]}");
+                        await client.SendTextMessageAsync((string)dataSet.Tables[0].Rows[i][0], @$"Замечено отличие в баллах: {dataSet.Tables[0].Rows[i][1]}");
+
+                        PictureFromSroreTable.GetPic((string)dataSet.Tables[0].Rows[i][0]);
+
+                        using (var fileStream = new FileStream(@"reit/" + (string)dataSet.Tables[0].Rows[i][0] + "/ball.jpg", FileMode.Open, FileAccess.Read, FileShare.Read))
+                        {
+                            await client.SendPhotoAsync(
+                        chatId: (string)dataSet.Tables[0].Rows[i][0],
+                        photo: new InputOnlineFile(fileStream),
+                        caption: "Лови баллы!");
+                        }
+
                     }
                 }
             }
