@@ -142,10 +142,8 @@ namespace RS_Bot
                     using (Font font = new Font("Arial", 16))
                     {
 
-
                         // Заливаем фон нужным цветом.
                         g.FillRectangle(GetColor(i, j), rect);
-
 
                         // Выводим текст.
                         g.DrawString(
@@ -180,7 +178,6 @@ namespace RS_Bot
 
             System.IO.File.Delete(@"reit/" + userId + "/ball.jpg");
             bmp1.Save(@"reit/"+userId+"/ball.jpg", System.Drawing.Imaging.ImageFormat.Jpeg);
-           // return bmp1;
         }
         //выбо кисти
         static Brush GetColor(int i, int j)

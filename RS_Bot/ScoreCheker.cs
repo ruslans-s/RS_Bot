@@ -28,24 +28,24 @@ namespace RS_Bot
         // user_id, login, password, tracking
         public bool chekScore(string userId, string login, string password, string url)
         {
-           
-            //Ссылка на поток
-            //string url = "https://info.swsu.ru/run/vkbot/ball_all.php?id=5817&uid=900066587&gr=000000464&semestr=000000007";
-
+           //Формирование путей к файлам
             string name = @"reit/"+ userId + "/ball.txt";
             string nameOld = @"reit/"+ userId + "/OLDball.txt";
 
-
-
+            //Готовим post запрос 
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
-            Console.WriteLine("1");
+
             string data = "";
+
+            //Сам запрос с данными пользователя
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create("https://info.swsu.ru/index.php?action=auth&login="+login+"&password="+password+"&click_autorize=");
             request.Method = "POST";
             request.UserAgent = "Mozilla/5.0 (Windows NT 6.2; WOW64; rv:18.0) Gecko/20100101 Firefox/18.0";
             request.Accept = "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8";
             request.ContentType = "application/x-www-form-urlencoded";
             request.AllowAutoRedirect = false;
+
+            //Получаем куки после авторизаций
             CookieContainer authInfo = new CookieContainer();
             request.CookieContainer = authInfo;
 
@@ -53,22 +53,20 @@ namespace RS_Bot
             request.ContentLength = EncodedPostParams.Length;
             request.GetRequestStream().Write(EncodedPostParams, 0, EncodedPostParams.Length);
             request.GetRequestStream().Close();
+
+            //Сохранение куки
             HttpWebResponse response = (HttpWebResponse)request.GetResponse();
             Console.WriteLine(request.CookieContainer.GetCookieHeader(request.RequestUri));
 
-
+            //Згрузка баллов через куки
             WebClient wc = new WebClient();
             wc.Headers.Add(HttpRequestHeader.Cookie, request.CookieContainer.GetCookieHeader(request.RequestUri));
-          //  string url = "https://info.swsu.ru/index.php?action=list_stud_reiting_devel&semestr=000000007&group=000000464&status=true";
-          //  string file = "ball.html";
+
+            //Грузим
             wc.DownloadFile(url, name);
 
 
-            /*
-            //Грузим
-            wc.DownloadFile(url, name);*/
-
-            //Если сервак лег
+            //Если сервак лег то у него обычно в тексте есть error ищем этот эррор
             using (var f = File.OpenText(name))
             {
                 while (!f.EndOfStream)
@@ -81,13 +79,7 @@ namespace RS_Bot
                 }
             }
 
-            /*
-            //Записываем обратно удаляе первые 6 строк
-            string[] s = File.ReadAllLines(name);
-            File.WriteAllLines(name, s.Skip(6));
-            */
-
-            //Сравнение
+            //Сравнение старого файла и нового через md5
             string file1 = GetMd5(File.ReadAllBytes(name));
             string file2 = GetMd5(File.ReadAllBytes(nameOld));
             if (file1 == file2)
@@ -106,8 +98,6 @@ namespace RS_Bot
                 return true;
             }
         }
-
-       
 
     }
 }

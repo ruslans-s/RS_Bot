@@ -3,7 +3,6 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SQLite;
-
 using System.IO;
 using System.Threading;
 using Telegram.Bot;
@@ -14,12 +13,12 @@ namespace RS_Bot
 {
     class Program
     {
-        //Удалить токен!!!!!!!
+      
         private static string token;
         static TelegramBotClient client;
         private static List<Bot_command.Command> comands;
 
-        static string botVersion = "v0.422";
+        static string botVersion = "v0.5";
 
         public static SQLiteConnection sql = null;
 
@@ -89,7 +88,8 @@ namespace RS_Bot
             while (true)
             {
 
-                log.addToLogFile("Проводится проверка RSS");
+               // log.addToLogFile("Проводится проверка RSS");
+
                 if (cheker.chekRutracker())
                 {
                     //207344692                  
@@ -175,7 +175,7 @@ namespace RS_Bot
             {
                 
                 //[NewScoresData] (user_id, login, password, tracking )
-
+                //Подгрузка базы
                 SQLiteDataAdapter dataAdapter = new SQLiteDataAdapter(
                "Select user_id, login, password, tracking from NewScoresData",
                sql
@@ -186,16 +186,18 @@ namespace RS_Bot
 
                 dataAdapter.Fill(dataSet);
                 ScoreCheker scoreCheker = new ScoreCheker();
-
+                //Цикл по базе
                 for (int i = 0; i < dataSet.Tables[0].Rows.Count; i++)
                 {
+                    //Проверка баллов
                     if (scoreCheker.chekScore((string)dataSet.Tables[0].Rows[i][0], (string)dataSet.Tables[0].Rows[i][1], (string)dataSet.Tables[0].Rows[i][2], (string)dataSet.Tables[0].Rows[i][3]))
                     {
+
                         Console.WriteLine((string)dataSet.Tables[0].Rows[i][1]);
                         await client.SendTextMessageAsync((string)dataSet.Tables[0].Rows[i][0], @$"Замечено отличие в баллах: {dataSet.Tables[0].Rows[i][1]}");
-
+                        //Формирование картинки баллов
                         PictureFromSroreTable.GetPic((string)dataSet.Tables[0].Rows[i][0]);
-
+                        //Отправка картинки
                         using (var fileStream = new FileStream(@"reit/" + (string)dataSet.Tables[0].Rows[i][0] + "/ball.jpg", FileMode.Open, FileAccess.Read, FileShare.Read))
                         {
                             await client.SendPhotoAsync(
@@ -209,6 +211,7 @@ namespace RS_Bot
             }
             catch (Exception err)
             {
+                //В случае ошибки 
                 sendMessageForAdmin("Ошибка! В обновлений баллов");
                 log.addToLogFile("Ошибка!! "+err.ToString());
             }
@@ -243,7 +246,7 @@ namespace RS_Bot
             }
             catch (Exception err)
             {
-                Console.WriteLine(err);
+                log.addToLogFile("Ошибка!! " + err.ToString());
                 throw;
             }
 
