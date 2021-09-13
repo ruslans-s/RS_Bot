@@ -39,9 +39,12 @@ namespace RS_Bot.Bot_command.Commands
 
         public override async void Execute(Message message, TelegramBotClient client, SQLiteConnection sqlN)
         {
-            //Удаляем команду и приводим к нижнему регистру
-            string name = message.Text.Remove(0,5).ToLower();
 
+            if (message.Text.Length < 5) return; 
+            
+                //Удаляем команду и приводим к нижнему регистру
+                string name = message.Text.Remove(0, 5).ToLower();
+            
            // await client.SendTextMessageAsync(message.Chat.Id, $"Напиши название сериала:)");
             sql = sqlN;
            if(getData(message.Chat.Id.ToString(), name))
