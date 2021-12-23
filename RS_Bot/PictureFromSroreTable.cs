@@ -111,7 +111,7 @@ namespace RS_Bot
                 {
                     tempArray.Add(stringFromFile[i]);
                 }
-                if (tempArray.Count == 17)
+                if (tempArray.Count == 18)
                 {
                     toDArray.Add(tempArray);
                     tempArray = new List<string>();
@@ -130,7 +130,7 @@ namespace RS_Bot
                 yn = 100;
 
             // Создаём битмап с нужными размерами и форматом пикселей.
-            Bitmap bmp1 = new Bitmap(12 * 50 + 730, array.Count * 100, PixelFormat.Format24bppRgb);
+            Bitmap bmp1 = new Bitmap(13 * 50 + 730, array.Count * 100, PixelFormat.Format24bppRgb);
             for (int j = 0; j < array.Count; j++)
             {
                 for (int i = 0; i < array[j].Count; i++)

@@ -13,7 +13,6 @@ D:\repos\RS_Bot\RS_Bot\bin\Release\netcoreapp3.1\runtimes\win-x64\native\sni.dll
 D:\repos\RS_Bot\RS_Bot\bin\Release\netcoreapp3.1\runtimes\win-x86\native\sni.dll
 D:\repos\RS_Bot\RS_Bot\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\repos\RS_Bot\RS_Bot\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-D:\repos\RS_Bot\RS_Bot\obj\Release\netcoreapp3.1\RS_Bot.csprojAssemblyReference.cache
 D:\repos\RS_Bot\RS_Bot\obj\Release\netcoreapp3.1\RS_Bot.AssemblyInfoInputs.cache
 D:\repos\RS_Bot\RS_Bot\obj\Release\netcoreapp3.1\RS_Bot.AssemblyInfo.cs
 D:\repos\RS_Bot\RS_Bot\obj\Release\netcoreapp3.1\RS_Bot.csproj.CoreCompileInputs.cache
@@ -41,3 +40,5 @@ D:\repos\RS_Bot\RS_Bot\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0
 D:\repos\RS_Bot\RS_Bot\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
 D:\repos\RS_Bot\RS_Bot\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\repos\RS_Bot\RS_Bot\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\repos\RS_Bot\RS_Bot\obj\Release\netcoreapp3.1\RS_Bot.csproj.AssemblyReference.cache
+D:\repos\RS_Bot\RS_Bot\obj\Release\netcoreapp3.1\RS_Bot.GeneratedMSBuildEditorConfig.editorconfig
