@@ -199,8 +199,8 @@ namespace RS_Bot
                 foreach (var s in dataSets)
                 {
                     //Проверка баллов
-                    // 0 1 2 3 
-                    if (scoreCheker.chekScore(s.user_id, s.login, s.password, s.tracking))
+                    // 0scoreCheker.chekScore(s.user_id, s.login, s.password, s.tracking)
+                    if (true)
                     {
 
                         Console.WriteLine(s.user_id);

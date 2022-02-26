@@ -75,7 +75,13 @@ namespace RS_Bot
 
                 if (openTbody == true & closeTbody == false)
                 {
+                    
                     if (line.IndexOf("<td></td>") != -1) line = "<td>Пусто</td>";
+                    if (line.IndexOf($"\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</td>") != -1)
+                    {
+                        line = "<td>Пусто</td>";
+                        Console.Write("Верстальшик сайта не человек");
+                    }
                     stringFromFile.Add(line.Trim().Replace("\t", ""));
                 }
 
@@ -104,14 +110,14 @@ namespace RS_Bot
             int i = 0;
             while (i < stringFromFile.Count)
             {
-              //  Console.WriteLine(stringFromFile[i]);
+                //  Console.WriteLine(stringFromFile[i]);
 
-                //
-                if (stringFromFile[i] != "Заказать" & stringFromFile[i] != "Подписаться на курс")
+                //Курс c https://do.swsu.ru/ не привязан к дисциплине
+                if (stringFromFile[i].IndexOf("Заказать") < 0 & stringFromFile[i].IndexOf("Курс") < 0 & stringFromFile[i].IndexOf("курс") < 0)
                 {
                     tempArray.Add(stringFromFile[i]);
                 }
-                if (tempArray.Count == 18)
+                if (tempArray.Count == 19)
                 {
                     toDArray.Add(tempArray);
                     tempArray = new List<string>();
@@ -130,7 +136,7 @@ namespace RS_Bot
                 yn = 100;
 
             // Создаём битмап с нужными размерами и форматом пикселей.
-            Bitmap bmp1 = new Bitmap(13 * 50 + 730, array.Count * 100, PixelFormat.Format24bppRgb);
+            Bitmap bmp1 = new Bitmap(14 * 50 + 730, array.Count * 100, PixelFormat.Format24bppRgb);
             for (int j = 0; j < array.Count; j++)
             {
                 for (int i = 0; i < array[j].Count; i++)
