@@ -29,8 +29,8 @@ namespace RS_Bot
         public bool chekScore(string userId, string login, string password, string url)
         {
            //Формирование путей к файлам
-            string name = @"reit/"+ userId + "/ball.txt";
-            string nameOld = @"reit/"+ userId + "/OLDball.txt";
+            string name = AppDomain.CurrentDomain.BaseDirectory + @"reit/" + userId + "/ball.txt";
+            string nameOld = AppDomain.CurrentDomain.BaseDirectory + @"reit/" + userId + "/OLDball.txt";
 
             //Готовим post запрос 
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);

@@ -7,7 +7,6 @@ D:\repos\RS_Bot\RS_Bot\bin\ARM32\Release\net6.0\linux-arm\ref\RS_Bot.dll
 D:\repos\RS_Bot\RS_Bot\bin\ARM32\Release\net6.0\linux-arm\RS_Bot.pdb
 D:\repos\RS_Bot\RS_Bot\bin\ARM32\Release\net6.0\linux-arm\Microsoft.Win32.SystemEvents.dll
 D:\repos\RS_Bot\RS_Bot\bin\ARM32\Release\net6.0\linux-arm\Newtonsoft.Json.dll
-D:\repos\RS_Bot\RS_Bot\bin\ARM32\Release\net6.0\linux-arm\System.Data.SQLite.dll
 D:\repos\RS_Bot\RS_Bot\bin\ARM32\Release\net6.0\linux-arm\System.Drawing.Common.dll
 D:\repos\RS_Bot\RS_Bot\bin\ARM32\Release\net6.0\linux-arm\Telegram.Bot.dll
 D:\repos\RS_Bot\RS_Bot\obj\ARM32\Release\net6.0\linux-arm\RS_Bot.GeneratedMSBuildEditorConfig.editorconfig
@@ -19,13 +18,9 @@ D:\repos\RS_Bot\RS_Bot\obj\ARM32\Release\net6.0\linux-arm\RS_Bot.dll
 D:\repos\RS_Bot\RS_Bot\obj\ARM32\Release\net6.0\linux-arm\ref\RS_Bot.dll
 D:\repos\RS_Bot\RS_Bot\obj\ARM32\Release\net6.0\linux-arm\RS_Bot.pdb
 D:\repos\RS_Bot\RS_Bot\obj\ARM32\Release\net6.0\linux-arm\RS_Bot.genruntimeconfig.cache
-D:\repos\RS_Bot\RS_Bot\bin\ARM32\Release\net6.0\linux-arm\EntityFramework.SqlServer.dll
-D:\repos\RS_Bot\RS_Bot\bin\ARM32\Release\net6.0\linux-arm\EntityFramework.dll
-D:\repos\RS_Bot\RS_Bot\bin\ARM32\Release\net6.0\linux-arm\System.CodeDom.dll
-D:\repos\RS_Bot\RS_Bot\bin\ARM32\Release\net6.0\linux-arm\System.Configuration.ConfigurationManager.dll
-D:\repos\RS_Bot\RS_Bot\bin\ARM32\Release\net6.0\linux-arm\System.Data.SqlClient.dll
-D:\repos\RS_Bot\RS_Bot\bin\ARM32\Release\net6.0\linux-arm\System.Data.SQLite.EF6.dll
-D:\repos\RS_Bot\RS_Bot\bin\ARM32\Release\net6.0\linux-arm\System.Security.Cryptography.ProtectedData.dll
-D:\repos\RS_Bot\RS_Bot\bin\ARM32\Release\net6.0\linux-arm\System.Security.Permissions.dll
-D:\repos\RS_Bot\RS_Bot\bin\ARM32\Release\net6.0\linux-arm\System.Windows.Extensions.dll
-D:\repos\RS_Bot\RS_Bot\bin\ARM32\Release\net6.0\linux-arm\System.Data.SQLite.Linq.dll
+D:\repos\RS_Bot\RS_Bot\bin\ARM32\Release\net6.0\linux-arm\SQLite-net.dll
+D:\repos\RS_Bot\RS_Bot\bin\ARM32\Release\net6.0\linux-arm\SQLitePCLRaw.batteries_v2.dll
+D:\repos\RS_Bot\RS_Bot\bin\ARM32\Release\net6.0\linux-arm\SQLitePCLRaw.nativelibrary.dll
+D:\repos\RS_Bot\RS_Bot\bin\ARM32\Release\net6.0\linux-arm\SQLitePCLRaw.core.dll
+D:\repos\RS_Bot\RS_Bot\bin\ARM32\Release\net6.0\linux-arm\SQLitePCLRaw.provider.dynamic_cdecl.dll
+D:\repos\RS_Bot\RS_Bot\bin\ARM32\Release\net6.0\linux-arm\libe_sqlite3.so

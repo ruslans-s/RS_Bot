@@ -50,7 +50,7 @@ namespace RS_Bot
             openTbody = false;
             closeTbody = false;
 
-            StreamReader Sites = new StreamReader(@"reit/" + user_id + "/OLDball.txt");
+            StreamReader Sites = new StreamReader(@"./reit/" + user_id + "/OLDball.txt");
             string line;
             while (!Sites.EndOfStream)
             {
@@ -183,7 +183,7 @@ namespace RS_Bot
             }
 
             System.IO.File.Delete(@"reit/" + userId + "/ball.jpg");
-            bmp1.Save(@"reit/"+userId+"/ball.jpg", System.Drawing.Imaging.ImageFormat.Jpeg);
+            bmp1.Save(AppDomain.CurrentDomain.BaseDirectory + @"reit/" + userId+"/ball.jpg", System.Drawing.Imaging.ImageFormat.Jpeg);
         }
         //выбо кисти
         static Brush GetColor(int i, int j)

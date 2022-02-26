@@ -5,7 +5,7 @@ namespace RS_Bot
 {
     class logFilesWork
     {
-        string path = "log.txt";
+        string path = AppDomain.CurrentDomain.BaseDirectory + "log.txt";
 
         public logFilesWork()
         {

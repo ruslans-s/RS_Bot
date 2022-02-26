@@ -25,10 +25,10 @@ namespace RS_Bot.Bot_command.Commands
                 await client.SendTextMessageAsync(message.Chat.Id, $"Привет Admin, секунду...");
                 try
                 {
-                    using (var log = System.IO.File.Open("log.txt", FileMode.Open))
+                    using (var log = System.IO.File.Open(AppDomain.CurrentDomain.BaseDirectory + "log.txt", FileMode.Open))
                     {
                         //Добавляем к старому содержимому файла
-                        await client.SendDocumentAsync(adminId, new InputOnlineFile(log, @"log.txt"));
+                        await client.SendDocumentAsync(adminId, new InputOnlineFile(log, AppDomain.CurrentDomain.BaseDirectory + @"log.txt"));
                     }
                 }
                 catch (IOException ioex)

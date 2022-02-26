@@ -44,22 +44,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "System.Data.SQLite": {
-              "target": "Package",
-              "version": "[1.0.115.5, )"
-            },
-            "System.Data.SQLite.Core": {
-              "target": "Package",
-              "version": "[1.0.115.5, )"
-            },
-            "System.Data.SQLite.EF6": {
-              "target": "Package",
-              "version": "[1.0.115.5, )"
-            },
-            "System.Data.SQLite.Linq": {
-              "target": "Package",
-              "version": "[1.0.115.5, )"
-            },
             "System.Drawing.Common": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -67,6 +51,10 @@
             "Telegram.Bot": {
               "target": "Package",
               "version": "[16.0.2, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
             }
           },
           "imports": [

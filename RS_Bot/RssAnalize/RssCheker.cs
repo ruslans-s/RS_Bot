@@ -23,11 +23,11 @@ namespace RS_Bot.RssAnalize
             return hash.ToString();
         }
 
-        string name = @"rutr.txt";
-        string nameOld = @"OLDrutr.txt";
+        string name = AppDomain.CurrentDomain.BaseDirectory + @"rutr.txt";
+        string nameOld = AppDomain.CurrentDomain.BaseDirectory + @"OLDrutr.txt";
 
-        string nameR = @"rutor.txt";
-        string nameOldR = @"OLDrutor.txt";
+        string nameR = AppDomain.CurrentDomain.BaseDirectory + @"rutor.txt";
+        string nameOldR = AppDomain.CurrentDomain.BaseDirectory + @"OLDrutor.txt";
 
         public bool chekRutor()
         {

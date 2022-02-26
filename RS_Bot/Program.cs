@@ -35,6 +35,9 @@ namespace RS_Bot
 
         static public void startUp()
         {
+
+           // Console.WriteLine($"Base Directory: {AppDomain.CurrentDomain.BaseDirectory}");
+
             log = new logFilesWork();
 
             Console.WriteLine($"RS_bot {botVersion} startup...");
@@ -42,10 +45,11 @@ namespace RS_Bot
 
             log.addToLogFile("Чтение файла настроек");
 
-            StreamReader sr2 = new StreamReader(@"setting.ini");
+            StreamReader sr2 = new StreamReader(AppDomain.CurrentDomain.BaseDirectory+@"setting.ini");
             //Читаем файл настроек
             adminChatId = sr2.ReadLine();
-            sql = new SQLiteConnection(sr2.ReadLine());
+            
+            sql = new SQLiteConnection(AppDomain.CurrentDomain.BaseDirectory + sr2.ReadLine());
             token = sr2.ReadLine();
 
             sr2.Close();
@@ -94,7 +98,7 @@ namespace RS_Bot
                 if (cheker.chekRutracker())
                 {
                     //207344692                  
-                    updateRss(cheker.GetArrayFromFile(@"rutr.txt", @"OLDrutr.txt"));
+                    updateRss(cheker.GetArrayFromFile(AppDomain.CurrentDomain.BaseDirectory + @"rutr.txt", AppDomain.CurrentDomain.BaseDirectory +@"OLDrutr.txt"));
                 }
 
                 if (count % 60 == 0)
@@ -199,8 +203,8 @@ namespace RS_Bot
                 foreach (var s in dataSets)
                 {
                     //Проверка баллов
-                    // 0scoreCheker.chekScore(s.user_id, s.login, s.password, s.tracking)
-                    if (true)
+                    // 0
+                    if (scoreCheker.chekScore(s.user_id, s.login, s.password, s.tracking))
                     {
 
                         Console.WriteLine(s.user_id);
@@ -208,7 +212,7 @@ namespace RS_Bot
                         //Формирование картинки баллов
                         PictureFromSroreTable.GetPic(s.user_id);
                         //Отправка картинки
-                        using (var fileStream = new FileStream(@"reit/" + s.user_id + "/ball.jpg", FileMode.Open, FileAccess.Read, FileShare.Read))
+                        using (var fileStream = new FileStream(AppDomain.CurrentDomain.BaseDirectory + @"reit/" + s.user_id + "/ball.jpg", FileMode.Open, FileAccess.Read, FileShare.Read))
                         {
                             await client.SendPhotoAsync(
                         chatId: s.user_id,
