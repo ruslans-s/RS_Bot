@@ -19,7 +19,7 @@ namespace RS_Bot
         static TelegramBotClient client;
         private static List<Bot_command.Command> comands;
 
-        static string botVersion = "v0.5";
+        static string botVersion = "v0.6";
 
         public static SQLiteConnection sql = null;
 
