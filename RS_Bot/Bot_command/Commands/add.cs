@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
-using System.Data.SQLite;
-
+using SQLite;
 using System.Text;
 using Telegram.Bot;
 using Telegram.Bot.Types;
@@ -16,26 +15,49 @@ namespace RS_Bot.Bot_command.Commands
 
         static private void AddNewUserId(string id, string trak)
         {
-            SQLiteCommand command = new SQLiteCommand(
+           /* SQLiteCommand command = new SQLiteCommand(
                 $"insert into [UserData] (user_id, tracking) values ('{id}', '{trak}')",
                 sql);
-            Console.WriteLine(command.ExecuteNonQuery().ToString());
+            */
+            sql.Execute("insert into UserData (user_id, tracking) values(?,?)", id, trak);
+
+
+         //   Console.WriteLine(command.ExecuteNonQuery().ToString());
         }
 
      
         static private bool getData(string id,string trak)
         {
-            SQLiteDataAdapter dataAdapter = new SQLiteDataAdapter(
+           /* SQLiteDataAdapter dataAdapter = new SQLiteDataAdapter(
                 $"Select user_id, tracking from UserData Where user_id = '{id}' AND tracking = '{trak}'",
                 sql
-                );
+                );*/
+
+            var query = sql.Query<UserData>("Select * from UserData  Where user_id = (?) AND tracking = (?)", id, trak);
+
+            /*
             DataSet dataSet = new DataSet();
-            
             dataAdapter.Fill(dataSet);
-            return (dataSet.Tables[0].Rows.Count == 0);
+            */
+
+            return (query.Count == 0);
         }
 
-       
+        [Table("UserData")]
+        public class UserData
+        {
+            [PrimaryKey, AutoIncrement]
+            [Column("id")]
+            public int id { get; set; }
+
+            [Column("user_id")]
+            public string user_id { get; set; }
+
+            [Column("tracking")]
+            public string tracking { get; set; }
+
+        }
+
 
         public override async void Execute(Message message, TelegramBotClient client, SQLiteConnection sqlN)
         {

@@ -1,13 +1,14 @@
-﻿using RS_Bot.Bot_command.Commands;
+﻿//using System.Data.SQLite;
+using RS_Bot.Bot_command.Commands;
 using System;
 using System.Collections.Generic;
 using System.Data;
-using System.Data.SQLite;
 using System.IO;
 using System.Threading;
 using Telegram.Bot;
 using Telegram.Bot.Args;
 using Telegram.Bot.Types.InputFiles;
+using SQLite;
 
 namespace RS_Bot
 {
@@ -50,14 +51,14 @@ namespace RS_Bot
             sr2.Close();
             log.addToLogFile("Файл настроек прочитан");
 
-            log.addToLogFile("Открываем БД");
-            sql.Open();
+          /*  log.addToLogFile("Открываем БД");
+           // sql.Open();
 
-            if (sql.State == ConnectionState.Open)
+            if (sql.s == ConnectionState.Open)
             {
                 Console.WriteLine("Бд подключена");
                 log.addToLogFile("Бд подключена");
-            }
+            }*/
 
             log.addToLogFile("Инцилизация команд");
             //Команды 
@@ -139,23 +140,26 @@ namespace RS_Bot
 
             try
             {
-                SQLiteDataAdapter dataAdapter = new SQLiteDataAdapter(
+               /* SQLiteDataAdapter dataAdapter = new SQLiteDataAdapter(
                    "Select user_id, tracking from UserData",
                    sql
-                   );
+                   );*/
 
-                DataSet dataSet = new DataSet();
 
-                dataAdapter.Fill(dataSet);
+                var query = sql.Query<UserData>("Select * from UserData");
 
-                for (int i = 0; i < dataSet.Tables[0].Rows.Count; i++)
+                /* DataSet dataSet = new DataSet();
+
+                 dataAdapter.Fill(dataSet);*/
+
+                foreach (var s in query)
                 {
                     for (int j = 0; j < arrayForOut.Count; j++)
                     {
-                        if (arrayForOut[j].IndexOf((string)dataSet.Tables[0].Rows[i][1]) > -1)
+                        if (arrayForOut[j].IndexOf(s.tracking) > -1)
                         {
-                            Console.WriteLine((string)dataSet.Tables[0].Rows[i][1]);
-                            await client.SendTextMessageAsync((string)dataSet.Tables[0].Rows[i][0], @$"Заметил одно из отслеживаемых {dataSet.Tables[0].Rows[i][1]} Раздача {arrayForOut[j]}");
+                            Console.WriteLine(s.tracking);
+                            await client.SendTextMessageAsync(s.user_id, @$"Заметил одно из отслеживаемых {s.tracking} Раздача {arrayForOut[j]}");
                         }
                     }
                 }
@@ -176,32 +180,38 @@ namespace RS_Bot
                 
                 //[NewScoresData] (user_id, login, password, tracking )
                 //Подгрузка базы
-                SQLiteDataAdapter dataAdapter = new SQLiteDataAdapter(
+               /* SQLiteDataAdapter dataAdapter = new SQLiteDataAdapter(
                "Select user_id, login, password, tracking from NewScoresData",
                sql
-               );
+               );*/
 
+
+                var dataSets = sql.Query<NewScoresData>("Select * from NewScoresData");
+
+                /*
                 DataSet dataSet = new DataSet();
-
-
                 dataAdapter.Fill(dataSet);
+                */
+
                 ScoreCheker scoreCheker = new ScoreCheker();
+
                 //Цикл по базе
-                for (int i = 0; i < dataSet.Tables[0].Rows.Count; i++)
+                foreach (var s in dataSets)
                 {
                     //Проверка баллов
-                    if (scoreCheker.chekScore((string)dataSet.Tables[0].Rows[i][0], (string)dataSet.Tables[0].Rows[i][1], (string)dataSet.Tables[0].Rows[i][2], (string)dataSet.Tables[0].Rows[i][3]))
+                    // 0 1 2 3 
+                    if (scoreCheker.chekScore(s.user_id, s.login, s.password, s.tracking))
                     {
 
-                        Console.WriteLine((string)dataSet.Tables[0].Rows[i][1]);
-                        await client.SendTextMessageAsync((string)dataSet.Tables[0].Rows[i][0], @$"Замечено отличие в баллах: {dataSet.Tables[0].Rows[i][1]}");
+                        Console.WriteLine(s.user_id);
+                        await client.SendTextMessageAsync(s.user_id, @$"Замечено отличие в баллах: {s.login}");
                         //Формирование картинки баллов
-                        PictureFromSroreTable.GetPic((string)dataSet.Tables[0].Rows[i][0]);
+                        PictureFromSroreTable.GetPic(s.user_id);
                         //Отправка картинки
-                        using (var fileStream = new FileStream(@"reit/" + (string)dataSet.Tables[0].Rows[i][0] + "/ball.jpg", FileMode.Open, FileAccess.Read, FileShare.Read))
+                        using (var fileStream = new FileStream(@"reit/" + s.user_id + "/ball.jpg", FileMode.Open, FileAccess.Read, FileShare.Read))
                         {
                             await client.SendPhotoAsync(
-                        chatId: (string)dataSet.Tables[0].Rows[i][0],
+                        chatId: s.user_id,
                         photo: new InputOnlineFile(fileStream),
                         caption: "Лови баллы!");
                         }
@@ -219,6 +229,26 @@ namespace RS_Bot
             //  await client.SendTextMessageAsync(@"207344692", "Обновился рсс");
         }
 
+        [Table("NewScoresData")]
+        public class NewScoresData
+        {
+            [PrimaryKey, AutoIncrement]
+            [Column("id")]
+            public int id { get; set; }
+
+            [Column("user_id")]
+            public string user_id { get; set; }
+
+            [Column("login")]
+            public string login { get; set; }
+
+            [Column("password")]
+            public string password { get; set; }
+
+            [Column("tracking")]
+            public string tracking { get; set; }
+
+        }
 
         private static async void sendMessageForAdmin(string text)
         {

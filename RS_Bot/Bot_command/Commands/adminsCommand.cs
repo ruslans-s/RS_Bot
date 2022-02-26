@@ -3,7 +3,7 @@ using System.IO;
 using Telegram.Bot;
 using Telegram.Bot.Types;
 using Telegram.Bot.Types.InputFiles;
-using System.Data.SQLite;
+using SQLite;
 
 namespace RS_Bot.Bot_command.Commands
 {

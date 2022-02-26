@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
-using System.Data.SQLite;
+using SQLite;
 using System.IO;
 using Telegram.Bot;
 using Telegram.Bot.Types;
@@ -29,35 +29,55 @@ namespace RS_Bot.Bot_command.Commands
                 }
             }
 
-            /*
-             CREATE TABLE "NewScoresData" (
-	"Id"	INTEGER NOT NULL,
-	"user_id"	TEXT NOT NULL,
-	"login"	TEXT NOT NULL,
-	"password"	TEXT NOT NULL,
-	"tracking"	TEXT NOT NULL,
-	PRIMARY KEY("Id" AUTOINCREMENT)
-)
-            */
 
+            /*
             SQLiteCommand command = new SQLiteCommand(
                 $"insert into [NewScoresData] (user_id, login, password, tracking ) values ('{id}', '{traks[0]}' , '{traks[1]}' , '{traks[2]}')",
                 sql);
-            Console.WriteLine(command.ExecuteNonQuery().ToString());
+            */
+
+            sql.Execute("insert into NewScoresData (user_id, login, password, tracking ) values(?,?,?,?)", id, traks[0], traks[1], traks[2]);
+
+          //  Console.WriteLine(command.ExecuteNonQuery().ToString());
         }
         //[scoresData]
         ///scoresData
         static private bool getData(string id)
         {
-            SQLiteDataAdapter dataAdapter = new SQLiteDataAdapter(
+           /* SQLiteDataAdapter dataAdapter = new SQLiteDataAdapter(
                 $"Select user_id, tracking from NewScoresData Where user_id = '{id}'",
                 sql
                 );
             DataSet dataSet = new DataSet();
 
-            dataAdapter.Fill(dataSet);
-            return (dataSet.Tables[0].Rows.Count == 0);
+            dataAdapter.Fill(dataSet);*/
+
+            var query = sql.Query<NewScoresData>("Select * from NewScoresData  Where user_id = (?)", id);
+
+
+            return (query.Count == 0);
         }
+
+        public class NewScoresData
+        {
+            [PrimaryKey, AutoIncrement]
+            [Column("id")]
+            public int id { get; set; }
+
+            [Column("user_id")]
+            public string user_id { get; set; }
+
+            [Column("login")]
+            public string login { get; set; }
+
+            [Column("password")]
+            public string password { get; set; }
+
+            [Column("tracking")]
+            public string tracking { get; set; }
+
+        }
+
 
         public override async void Execute(Message message, TelegramBotClient client, SQLiteConnection sqlN)
         {

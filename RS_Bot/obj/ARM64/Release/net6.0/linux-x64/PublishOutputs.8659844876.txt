@@ -1,0 +1,12 @@
+C:\Users\sadik\Desktop\Новая папка (4)\Settings.job
+C:\Users\sadik\Desktop\Новая папка (4)\RS_Bot
+C:\Users\sadik\Desktop\Новая папка (4)\RS_Bot.dll
+C:\Users\sadik\Desktop\Новая папка (4)\RS_Bot.deps.json
+C:\Users\sadik\Desktop\Новая папка (4)\RS_Bot.runtimeconfig.json
+C:\Users\sadik\Desktop\Новая папка (4)\RS_Bot.pdb
+C:\Users\sadik\Desktop\Новая папка (4)\Microsoft.Win32.SystemEvents.dll
+C:\Users\sadik\Desktop\Новая папка (4)\Newtonsoft.Json.dll
+C:\Users\sadik\Desktop\Новая папка (4)\System.Data.SQLite.dll
+C:\Users\sadik\Desktop\Новая папка (4)\System.Drawing.Common.dll
+C:\Users\sadik\Desktop\Новая папка (4)\Telegram.Bot.dll
+C:\Users\sadik\Desktop\Новая папка (4)\SQLite.Interop.dll

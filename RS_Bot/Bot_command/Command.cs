@@ -1,4 +1,4 @@
-﻿using System.Data.SQLite;
+﻿using SQLite;
 using Telegram.Bot;
 using Telegram.Bot.Types;
 
