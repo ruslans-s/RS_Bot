@@ -37,7 +37,7 @@ namespace RS_Bot.Bot_command.Commands
             Console.WriteLine(command.ExecuteNonQuery().ToString());
             */
 
-            sql.Execute("Delete from NewScoresData Where user_id (?)", message.Chat.Id.ToString());
+            sql.Execute("Delete from NewScoresData Where user_id = (?)", message.Chat.Id.ToString());
 
         }
 
